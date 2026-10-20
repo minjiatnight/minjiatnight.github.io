@@ -4,7 +4,8 @@
 // IMGS: 룩 소개 사진(img/ 폴더 파일명). 파일을 올리고 목록에 이름만 추가하면 갤러리에 나온다.
 const IMGS = {
   1: ["ep1_l1_2.jpg","ep1_l1_3.jpg","ep1_l1_1.jpg"],
-  2: ["ep1_l2_1.jpg"], 3: ["ep1_l3_1.jpg"], 4: ["ep1_l4_1.jpg"], 5: ["ep1_l5_1.jpg"]
+  2: ["ep1_l2_1.jpg","ep1_l2_2.jpg","ep1_l2_3.jpg"], 3: ["ep1_l3_1.jpg","ep1_l3_2.jpg","ep1_l3_3.jpg"],
+  4: ["ep1_l4_1.jpg","ep1_l4_2.jpg","ep1_l4_3.jpg"], 5: ["ep1_l5_1.jpg","ep1_l5_2.jpg","ep1_l5_3.jpg"]
 };
 // P(이름, 가격, productId, itemId, vendorItemId, 상품이미지 파일명, ok)
 // ok=true 는 상품 페이지에서 색상·사이즈가 룩과 일치하는 것을 확인한 뒤에만 쓴다. false면 "색상 확인 중" 표시가 붙는다.
