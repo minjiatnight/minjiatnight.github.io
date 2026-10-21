@@ -11,11 +11,73 @@ const IMGS = {
 };
 // P(이름, 가격, productId, itemId, vendorItemId, 상품이미지 파일명, ok)
 // ok=true 는 상품 페이지에서 색상·사이즈가 룩과 일치하는 것을 확인한 뒤에만 쓴다. false면 "색상 확인 중" 표시가 붙는다.
-const P = (name, price, id, item, vendor, img, ok, hide) => ({
-  name, price, ok, hide: !!hide,
-  url: "https://www.coupang.com/vp/products/" + id + "?itemId=" + item + "&vendorItemId=" + vendor,
-  img
-});
+const PLINK = {
+"https://www.coupang.com/vp/products/6629626563?itemId=15108568332&vendorItemId=92003182581": "https://link.coupang.com/a/h182YuBy5Q",
+"https://www.coupang.com/vp/products/7219802962?itemId=18292554862&vendorItemId=85438221385": "https://link.coupang.com/a/h183bYyOjY",
+"https://www.coupang.com/vp/products/9569061567?itemId=28559875483&vendorItemId=95504481137": "https://link.coupang.com/a/h183qc3HIy",
+"https://www.coupang.com/vp/products/9309403316?itemId=28592651236&vendorItemId=95536506922": "https://link.coupang.com/a/h183DlHTRA",
+"https://www.coupang.com/vp/products/9416670326?itemId=27983185520&vendorItemId=94940922620": "https://link.coupang.com/a/h183MFmaI0",
+"https://www.coupang.com/vp/products/8357643532?itemId=24283933312&vendorItemId=91300241509": "https://link.coupang.com/a/h18ZFxCLPo",
+"https://www.coupang.com/vp/products/7246420112?itemId=18423041484&vendorItemId=86317619889": "https://link.coupang.com/a/h184rInEXs",
+"https://www.coupang.com/vp/products/344545583?itemId=1094463775&vendorItemId=5613043610": "https://link.coupang.com/a/h184FP5r5g",
+"https://www.coupang.com/vp/products/9419139646?itemId=27992238029&vendorItemId=95005789791": "https://link.coupang.com/a/h184Pbnd7I",
+"https://www.coupang.com/vp/products/8298261201?itemId=25157082472&vendorItemId=90958102326": "https://link.coupang.com/a/h184YcCwN2",
+"https://www.coupang.com/vp/products/9449316676?itemId=28109550674&vendorItemId=95065566407": "https://link.coupang.com/a/h185bVi4MC",
+"https://www.coupang.com/vp/products/7970251699?itemId=22071288450&vendorItemId=89118370452": "https://link.coupang.com/a/h185pA8EIS",
+"https://www.coupang.com/vp/products/7867922320?itemId=21485787539&vendorItemId=88539889486": "https://link.coupang.com/a/h185DnQxNs",
+"https://www.coupang.com/vp/products/7523365693?itemId=19736688919&vendorItemId=93300384795": "https://link.coupang.com/a/h19buoyXhQ",
+"https://www.coupang.com/vp/products/9437985652?itemId=28068456753&vendorItemId=95025098123": "https://link.coupang.com/a/h19bDAxuto",
+"https://www.coupang.com/vp/products/8611013813?itemId=24975575332&vendorItemId=91981093369": "https://link.coupang.com/a/h19bReVNUy",
+"https://www.coupang.com/vp/products/8863441253?itemId=25848364927&vendorItemId=92835285860": "https://link.coupang.com/a/h19b4Uera8",
+"https://www.coupang.com/vp/products/7813674294?itemId=21202585065&vendorItemId=88263849296": "https://link.coupang.com/a/h19cjepja0",
+"https://www.coupang.com/vp/products/8715665087?itemId=25313761403&vendorItemId=92458074084": "https://link.coupang.com/a/h19cwssrXo",
+"https://www.coupang.com/vp/products/9000382528?itemId=26383844454&vendorItemId=93837604710": "https://link.coupang.com/a/h19cFCbSwK",
+"https://www.coupang.com/vp/products/9705923242?itemId=29037239908&vendorItemId=95964538245": "https://link.coupang.com/a/h19cTjM8QK",
+"https://www.coupang.com/vp/products/8387887064?itemId=24244454131&vendorItemId=91261443527": "https://link.coupang.com/a/h19dtW9tF6",
+"https://www.coupang.com/vp/products/6036978818?itemId=11025245483&vendorItemId=78304829905": "https://link.coupang.com/a/h19dDbm7tQ",
+"https://www.coupang.com/vp/products/6868009336?itemId=16420793385&vendorItemId=83611697468": "https://link.coupang.com/a/h19dL8VDtk",
+"https://www.coupang.com/vp/products/9037002777?itemId=26511939609&vendorItemId=96076023391": "https://link.coupang.com/a/h19dZZQydM",
+"https://www.coupang.com/vp/products/7173524848?itemId=24997935273&vendorItemId=92003133553": "https://link.coupang.com/a/h19d801LiK",
+"https://www.coupang.com/vp/products/8388133443?itemId=24245282976&vendorItemId=91262261240": "https://link.coupang.com/a/h19emREFlA",
+"https://www.coupang.com/vp/products/9595583176?itemId=28644875752&vendorItemId=95588335668": "https://link.coupang.com/a/h19eAvSqw8",
+"https://www.coupang.com/vp/products/6148982292?itemId=11854933258&vendorItemId=79148902025": "https://link.coupang.com/a/h19eOnDzvE",
+"https://www.coupang.com/vp/products/7276574949?itemId=18569317477&vendorItemId=85706517483": "https://link.coupang.com/a/h19e18kAfs",
+"https://www.coupang.com/vp/products/6540982046?itemId=14563217507&vendorItemId=81805477107": "https://link.coupang.com/a/h19fy2nF48",
+"https://www.coupang.com/vp/products/6074019864?itemId=11226825748&vendorItemId=86635744663": "https://link.coupang.com/a/h19fMTjRGm",
+"https://www.coupang.com/vp/products/9034440469?itemId=26502627172&vendorItemId=93477352052": "https://link.coupang.com/a/h19f0uFW8W",
+"https://www.coupang.com/vp/products/9243526747?itemId=27335176700&vendorItemId=89821410709": "https://link.coupang.com/a/h19geooBBA",
+"https://www.coupang.com/vp/products/7610297398?itemId=20153884897&vendorItemId=87246762745": "https://link.coupang.com/a/h19gsITkjY",
+"https://www.coupang.com/vp/products/6976253068?itemId=17028676257&vendorItemId=93525256104": "https://link.coupang.com/a/h19gEc2D5o",
+"https://www.coupang.com/vp/products/9690642354?itemId=28982761091&vendorItemId=95925239259": "https://link.coupang.com/a/h19gNjE3oa",
+"https://www.coupang.com/vp/products/294181143?itemId=2256073177&vendorItemId=75876222328": "https://link.coupang.com/a/h19gWVbuhw",
+"https://www.coupang.com/vp/products/6617073518?itemId=15029108872&vendorItemId=82251736044": "https://link.coupang.com/a/h19g98o6wu",
+"https://www.coupang.com/vp/products/6480513476?itemId=14184729717&vendorItemId=81430545109": "https://link.coupang.com/a/h19hHh2REW",
+"https://www.coupang.com/vp/products/9736542835?itemId=29138978370&vendorItemId=96062663082": "https://link.coupang.com/a/h19hUI9yqi",
+"https://www.coupang.com/vp/products/9070017087?itemId=26636233242&vendorItemId=93608986171": "https://link.coupang.com/a/h19h8Bw0wC",
+"https://www.coupang.com/vp/products/9693291381?itemId=28992181372&vendorItemId=95920898209": "https://link.coupang.com/a/h19imv78NM",
+"https://www.coupang.com/vp/products/9312337431?itemId=27594793458&vendorItemId=96069812727": "https://link.coupang.com/a/h19izZNMTR",
+"https://www.coupang.com/vp/products/9671660466?itemId=28917748890&vendorItemId=95849469222": "https://link.coupang.com/a/h19iI4XnNI",
+"https://www.coupang.com/vp/products/9414310088?itemId=27973849557&vendorItemId=94934344397": "https://link.coupang.com/a/h19iUZ8GwC",
+"https://www.coupang.com/vp/products/9523467354?itemId=28392517981&vendorItemId=95385217407": "https://link.coupang.com/a/h19i8pwvEO",
+"https://www.coupang.com/vp/products/9449193175?itemId=28109119869&vendorItemId=95065137912": "https://link.coupang.com/a/h19jmmpHPg",
+"https://www.coupang.com/vp/products/9770494560?itemId=29244703478&vendorItemId=96163044474": "https://link.coupang.com/a/h19jSGHlgO",
+"https://www.coupang.com/vp/products/7956690144?itemId=21984420876&vendorItemId=89032012569": "https://link.coupang.com/a/h19j8cX5nE",
+"https://www.coupang.com/vp/products/9263369868?itemId=27410439766&vendorItemId=94376063849": "https://link.coupang.com/a/h19kmbzruC",
+"https://www.coupang.com/vp/products/8284345251?itemId=23886275470&vendorItemId=90957795217": "https://link.coupang.com/a/h19kBifs84",
+"https://www.coupang.com/vp/products/8415267453?itemId=24334936605&vendorItemId=91350502674": "https://link.coupang.com/a/h19kKmQqWW",
+"https://www.coupang.com/vp/products/6572072687?itemId=14756406002&vendorItemId=81996726159": "https://link.coupang.com/a/h19kYAL75o",
+"https://www.coupang.com/vp/products/9371768520?itemId=27815840764&vendorItemId=94775616438": "https://link.coupang.com/a/h19lcJWarY",
+"https://www.coupang.com/vp/products/8423151463?itemId=24451043573&vendorItemId=91464876586": "https://link.coupang.com/a/h19lpCmgUe",
+"https://www.coupang.com/vp/products/9683996892?itemId=28959263073&vendorItemId=95889499954": "https://link.coupang.com/a/h19lDgiqXI",
+"https://www.coupang.com/vp/products/9705934038?itemId=29037276899&vendorItemId=95964572917": "https://link.coupang.com/a/h19nFmqkxM",
+"https://www.coupang.com/vp/products/9339627540?itemId=27697074371&vendorItemId=94658828344": "https://link.coupang.com/a/h19nSALDCm",
+"https://www.coupang.com/vp/products/9735540094?itemId=29135237698&vendorItemId=96059064725": "https://link.coupang.com/a/h19n2PqsSa",
+"https://www.coupang.com/vp/products/9769912619?itemId=29243116045&vendorItemId=96161530159": "https://link.coupang.com/a/h19w1ELnhc"
+};
+const P = (name, price, id, item, vendor, img, ok, hide) => {
+  const long = "https://www.coupang.com/vp/products/" + id + "?itemId=" + item + "&vendorItemId=" + vendor;
+  return { name, price, ok, hide: !!hide, url: PLINK[long] || long, img };
+};
 const EPISODES = [
   {
     tab: "EP001",
@@ -40,7 +102,7 @@ const EPISODES = [
         P("위드후이린 뒷리본 슬림 퍼프 긴팔 블라우스", 15900, "9449316676","28109550674","95065566407", "ep1_p3_2.jpg", true),
         P("라라온 순면 캉캉 미니스커트", 15100, "7970251699","22071288450","89118370452", "ep1_p3_3.jpg", true),
         P("착한구두 체니 스트랩 키높이 메리제인", 28710, "7867922320","21485787539","88539889486", "ep1_p3_4.jpg", true),
-        P("엘라주르 블랙 리본 진주 초커", 9600, "7075197389","17582977437","87554581862", "ep1_p3_5.jpg", true),
+        P("진주 초커 목걸이 블랙 리본", 9900, "9769912619","29243116045","96161530159", "ep1_p3_5b.jpg", true),
         P("거와스 대형 블랙 리본 집게핀", 7740, "7523365693","19736688919","93300384795", "ep1_p3_6.jpg", true)
       ]},
       { name: "하트 로맨틱 코디", imgs: IMGS[4], items: [
