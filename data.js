@@ -81,7 +81,7 @@ const P = (name, price, id, item, vendor, img, ok, hide) => {
 const EPISODES = [
   {
     tab: "EP001",
-    pov: "짝사랑하는 남자 만나러 갈 때",
+    pov: "은근 잘 보이고 싶을 때",
     looks: [
       { name: "와인 테니스 코디", imgs: IMGS[1], items: [
         P("7APRIL 여성용 브이넥 크롭 니트 가디건 (레드와인)", 15290, "8357643532","24283933312","91300241509", "ep1_p1_2b.jpg", true),
