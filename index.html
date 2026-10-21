@@ -39,6 +39,15 @@
   .tag{display:inline-block;margin-top:5px;padding:1px 7px;border-radius:999px;border:1px solid var(--warn);color:var(--warn);font-size:11px;font-weight:500}
   .go{display:block;margin-top:6px;font-size:12px;color:var(--dim)}
   footer{margin-top:24px;color:var(--dim);font-size:12px;line-height:1.7;text-align:center}
+  .gallery img{cursor:zoom-in}
+  .lb{position:fixed;inset:0;z-index:50;background:rgba(10,7,18,.92);display:none;align-items:center;justify-content:center;padding:56px 12px 24px}
+  .lb.on{display:flex}
+  .lb img{max-width:100%;max-height:100%;object-fit:contain;border-radius:12px;touch-action:pan-y}
+  .lb button{position:absolute;border:0;color:#fff;background:rgba(255,255,255,.14);width:44px;height:44px;border-radius:50%;font-size:22px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+  .lb .x{top:max(12px,env(safe-area-inset-top));right:14px}
+  .lb .pv{left:10px;top:50%;transform:translateY(-50%)}
+  .lb .nx{right:10px;top:50%;transform:translateY(-50%)}
+  .lb .cnt{position:absolute;top:max(22px,env(safe-area-inset-top));left:50%;transform:translateX(-50%);font-size:13px;color:var(--dim)}
 </style>
 </head>
 <body>
@@ -50,12 +59,19 @@
   <div class="tabs" id="tabs" role="tablist"></div>
   <p class="pov" id="pov"></p>
   <main id="looks"></main>
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="사진 크게 보기">
+    <span class="cnt" id="lbcnt"></span>
+    <button class="x" id="lbx" aria-label="닫기">✕</button>
+    <button class="pv" id="lbpv" aria-label="이전 사진">‹</button>
+    <img id="lbimg" alt="">
+    <button class="nx" id="lbnx" aria-label="다음 사진">›</button>
+  </div>
   <footer>
     이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.<br>
     사진은 AI로 생성한 이미지예요. 실제 상품과 색상·핏이 다를 수 있으니 상품 페이지의 색상·사이즈 옵션을 꼭 확인해 주세요.
   </footer>
 </div>
-<script src="data.js?v=20261021d"></script>
+<script src="data.js?v=20261021e"></script>
 <script>
   const $ = id => document.getElementById(id);
   const won = n => n ? n.toLocaleString('ko-KR') + '원' : '';
@@ -73,6 +89,22 @@
       return '<section class="look"><h2><span>Look '+(n+1)+'</span>'+l.name+'</h2>' + (gal?'<div class="gallery">'+gal+'</div>':'') + '<div class="items">'+items+'</div>' + '</section>';
     }).join('');
   }
+  // 사진 크게 보기: 갤러리 사진을 누르면 확대, ✕·바깥 영역·Esc로 닫기, ‹ › 와 좌우 스와이프로 넘기기
+  let lbList=[], lbIdx=0;
+  const lb=$('lb'), lbimg=$('lbimg');
+  function lbShow(){ lbimg.src=lbList[lbIdx]; $('lbcnt').textContent=(lbIdx+1)+' / '+lbList.length; const many=lbList.length>1; $('lbpv').style.display=$('lbnx').style.display=many?'flex':'none'; }
+  function lbOpen(list,i){ lbList=list; lbIdx=i; lbShow(); lb.classList.add('on'); document.body.style.overflow='hidden'; }
+  function lbClose(){ lb.classList.remove('on'); document.body.style.overflow=''; lbimg.removeAttribute('src'); }
+  function lbMove(d){ lbIdx=(lbIdx+d+lbList.length)%lbList.length; lbShow(); }
+  document.addEventListener('click', e=>{
+    const g=e.target.closest && e.target.closest('.gallery img');
+    if(g){ const imgs=[...g.parentElement.querySelectorAll('img')]; lbOpen(imgs.map(x=>x.src), imgs.indexOf(g)); return; }
+    if(e.target===lb) lbClose();
+  });
+  $('lbx').onclick=lbClose; $('lbpv').onclick=()=>lbMove(-1); $('lbnx').onclick=()=>lbMove(1);
+  document.addEventListener('keydown', e=>{ if(!lb.classList.contains('on')) return; if(e.key==='Escape') lbClose(); if(e.key==='ArrowLeft') lbMove(-1); if(e.key==='ArrowRight') lbMove(1); });
+  let tx=null; lb.addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});
+  lb.addEventListener('touchend',e=>{ if(tx===null) return; const dx=e.changedTouches[0].clientX-tx; tx=null; if(Math.abs(dx)>50) lbMove(dx<0?1:-1); },{passive:true});
   EPISODES.forEach((ep,i)=>{ const b=document.createElement('button'); b.className='tab'; b.role='tab'; b.textContent=ep.tab; b.onclick=()=>render(i); $('tabs').appendChild(b); });
   render(EPISODES.length-1);
 </script>
