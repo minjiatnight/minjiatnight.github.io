@@ -72,7 +72,38 @@ const PLINK = {
 "https://www.coupang.com/vp/products/9705934038?itemId=29037276899&vendorItemId=95964572917": "https://link.coupang.com/a/h19nFmqkxM",
 "https://www.coupang.com/vp/products/9339627540?itemId=27697074371&vendorItemId=94658828344": "https://link.coupang.com/a/h19nSALDCm",
 "https://www.coupang.com/vp/products/9735540094?itemId=29135237698&vendorItemId=96059064725": "https://link.coupang.com/a/h19n2PqsSa",
-"https://www.coupang.com/vp/products/9769912619?itemId=29243116045&vendorItemId=96161530159": "https://link.coupang.com/a/h19w1ELnhc"
+"https://www.coupang.com/vp/products/9769912619?itemId=29243116045&vendorItemId=96161530159": "https://link.coupang.com/a/h19w1ELnhc",
+"https://www.coupang.com/vp/products/9174439520?itemId=27043977091&vendorItemId=94012413021": "https://link.coupang.com/a/h3L9NwSlPi",
+"https://www.coupang.com/vp/products/8606839174?itemId=24960465891&vendorItemId=91966215348": "https://link.coupang.com/a/h3L9WHTxD2",
+"https://www.coupang.com/vp/products/7856039319?itemId=21425818521&vendorItemId=91021719391": "https://link.coupang.com/a/h3L91eA8Rw",
+"https://www.coupang.com/vp/products/7563062886?itemId=19929716691&vendorItemId=87029283719": "https://link.coupang.com/a/h3MaatKMU0",
+"https://www.coupang.com/vp/products/8723437347?itemId=25340902384&vendorItemId=92515479039": "https://link.coupang.com/a/h3MajBI6gK",
+"https://www.coupang.com/vp/products/7910721348?itemId=23980109638&vendorItemId=91001293914": "https://link.coupang.com/a/h3Mas0bZa8",
+"https://www.coupang.com/vp/products/7655849401?itemId=20382510946&vendorItemId=91386951959": "https://link.coupang.com/a/h3MaxqouPs",
+"https://www.coupang.com/vp/products/8323410071?itemId=26580838304&vendorItemId=93554247977": "https://link.coupang.com/a/h3MaBRylQy",
+"https://www.coupang.com/vp/products/8552726718?itemId=4083869763&vendorItemId=93170933263": "https://link.coupang.com/a/h3MbhatnmC",
+"https://www.coupang.com/vp/products/7910205840?itemId=21702609963&vendorItemId=91954556644": "https://link.coupang.com/a/h3MbqvGrro",
+"https://www.coupang.com/vp/products/9302927485?itemId=27559821477&vendorItemId=94523883524": "https://link.coupang.com/a/h3MeDTffqe",
+"https://www.coupang.com/vp/products/9152197200?itemId=26949792027&vendorItemId=93918873343": "https://link.coupang.com/a/h3MJMFAXDw",
+"https://www.coupang.com/vp/products/9129046789?itemId=26859645504&vendorItemId=93829341117": "https://link.coupang.com/a/h3MO7DA1Js",
+"https://www.coupang.com/vp/products/9304854568?itemId=27566493290&vendorItemId=94530502046": "https://link.coupang.com/a/h3MJVQq6iO",
+"https://www.coupang.com/vp/products/8349404281?itemId=26818905215&vendorItemId=93789109694": "https://link.coupang.com/a/h3MKec4I0a",
+"https://www.coupang.com/vp/products/9701022570?itemId=29019791933&vendorItemId=95947538909": "https://link.coupang.com/a/h3MKwxcMhw",
+"https://www.coupang.com/vp/products/9302927485?itemId=27559821414&vendorItemId=94523883504": "https://link.coupang.com/a/h3MIFQKyoC",
+"https://www.coupang.com/vp/products/9264905410?itemId=27416094712&vendorItemId=94381663249": "https://link.coupang.com/a/h3MKOInTNI",
+"https://www.coupang.com/vp/products/8952726300?itemId=26188951599&vendorItemId=93168370284": "https://link.coupang.com/a/h3MKTpTWnY",
+"https://www.coupang.com/vp/products/9771570132?itemId=29248838436&vendorItemId=96167036793": "https://link.coupang.com/a/h3MK2sOZPM",
+"https://www.coupang.com/vp/products/9099623568?itemId=26748846509&vendorItemId=93741502462": "https://link.coupang.com/a/h3MLkW7M2S",
+"https://www.coupang.com/vp/products/9302927485?itemId=27559821444&vendorItemId=94523883535": "https://link.coupang.com/a/h3MJpRtdC0",
+"https://www.coupang.com/vp/products/8287892182?itemId=23900321428&vendorItemId=90922874022": "https://link.coupang.com/a/h3MLDje2eG",
+"https://www.coupang.com/vp/products/9776920466?itemId=29268063828&vendorItemId=96185423157": "https://link.coupang.com/a/h3MI7f7tHE",
+"https://www.coupang.com/vp/products/9328317762?itemId=27653994076&vendorItemId=94921926484": "https://link.coupang.com/a/h3MLVW7kjI",
+"https://www.coupang.com/vp/products/9766562679?itemId=29231813844&vendorItemId=96150843852": "https://link.coupang.com/a/h3MMdG9vki",
+"https://www.coupang.com/vp/products/8971720618?itemId=26258122344&vendorItemId=93236486009": "https://link.coupang.com/a/h3MMJKTHgq",
+"https://www.coupang.com/vp/products/8657689478?itemId=25127789895&vendorItemId=92175125368": "https://link.coupang.com/a/h3MM6HfN2O",
+"https://www.coupang.com/vp/products/7579095839?itemId=20003432455&vendorItemId=87068071716": "https://link.coupang.com/a/h3MNo6Utci",
+"https://www.coupang.com/vp/products/9779933479?itemId=29278586559&vendorItemId=96195311236": "https://link.coupang.com/a/h3MIPukS96",
+"https://www.coupang.com/vp/products/8971720618?itemId=26258122341&vendorItemId=93236485994": "https://link.coupang.com/a/h3Pu76sv3Q"
 };
 const P = (name, price, id, item, vendor, img, ok, hide) => {
   const long = "https://www.coupang.com/vp/products/" + id + "?itemId=" + item + "&vendorItemId=" + vendor;
@@ -189,6 +220,115 @@ const EPISODES = [
         P("화이트 벌룬 미니스커트", 15000, "9339627540","27697074371","94658828344", "ep3_p5_2.jpg", true),
         P("베이지 슬라우치 롱부츠", 39800, "9735540094","29135237698","96059064725", "ep3_p5_3.jpg", true)
       ]}
+    ]
+  },
+  {
+    tab: "EP004",
+    pov: "가을 가기 전에 인생샷 건져야 할 때",
+    looks: [
+      { name: "보라 니트 코디", imgs: ["ep4s_l1_1.jpg","ep4s_l1_2.jpg","ep4s_l1_3.jpg"], items: [] },
+      { name: "가죽 재킷 코디", imgs: ["ep4s_l2_1.jpg","ep4s_l2_2.jpg","ep4s_l2_3.jpg"], items: [] },
+      { name: "네이비 셔츠원피스 코디", imgs: ["ep4s_l3_1.jpg","ep4s_l3_2.jpg","ep4s_l3_3.jpg"], items: [] },
+      { name: "베이지 트렌치 코디", imgs: ["ep4s_l4_1.jpg","ep4s_l4_2.jpg","ep4s_l4_3.jpg"], items: [] },
+      { name: "물방울 원피스 코디", imgs: ["ep4s_l5_1.jpg","ep4s_l5_2.jpg","ep4s_l5_3.jpg"], items: [] }
+    ]
+  },
+  {
+    tab: "EP005",
+    pov: "옷장 앞에서 한 시간 고민하다 이 코디로 정함",
+    looks: [
+      { name: "카멜 하프코트 코디", imgs: ["ep5s_l1_1.jpg","ep5s_l1_2.jpg","ep5s_l1_3.jpg"], items: [
+        P("하이넥 벨트 하프 모직 코트", 39500, "9779933479","29278586559","96195311236", "ep5_p1_0.jpg", true),
+        P("슬림핏 라운드넥 이너 긴팔 티셔츠", 9610, "9174439520","27043977091","94012413021", "ep5_p1_1.jpg", true),
+        P("일자 와이드 데님 팬츠", 28900, "8606839174","24960465891","91966215348", "ep5_p1_2.jpg", true),
+        P("스퀘어코 통굽 청키힐 로퍼", 39900, "7856039319","21425818521","91021719391", "ep5_p1_3.jpg", true)
+      ]},
+      { name: "레더 재킷 코디", imgs: ["ep5s_l2_1.jpg","ep5s_l2_2.jpg","ep5s_l2_3.jpg"], items: [
+        P("페이크레더 크롭 라이더 자켓", 19800, "7563062886","19929716691","87029283719", "ep5_p2_1.jpg", true),
+        P("슬림 라운드넥 반팔 티셔츠", 10800, "8723437347","25340902384","92515479039", "ep5_p2_2.jpg", true),
+        P("일자핏 팬츠", 13800, "7910721348","23980109638","91001293914", "ep5_p2_3.jpg", true),
+        P("스퀘어 통굽 롱부츠", 31900, "7655849401","20382510946","91386951959", "ep5_p2_4.jpg", true)
+      ]},
+      { name: "그레이 블레이저 코디", imgs: ["ep5s_l3_1.jpg","ep5s_l3_2.jpg","ep5s_l3_3.jpg"], items: [
+        P("더블 원버튼 자켓", 44800, "8323410071","26580838304","93554247977", "ep5_p3_1.jpg", true),
+        P("심플 플리츠 스커트", 18360, "9129046789","26859645504","93829341117", "ep5_p3_2.jpg", true)
+      ]},
+      { name: "와인 니트 원피스 코디", imgs: ["ep5s_l4_1.jpg","ep5s_l4_2.jpg","ep5s_l4_3.jpg"], items: [
+        P("슬림 골지 브이넥 니트원피스", 21510, "8552726718","4083869763","93170933263", "ep5_p4_1.jpg", true)
+      ]},
+      { name: "셔츠 플리츠 코디", imgs: ["ep5s_l5_1.jpg","ep5s_l5_2.jpg","ep5s_l5_3.jpg"], items: [
+        P("오버핏 롱셔츠 블라우스", 15900, "7910205840","21702609963","91954556644", "ep5_p5_1.jpg", true),
+        P("네이비 하이웨스트 플리츠 미니스커트", 15740, "9302927485","27559821477","94523883524", "ep5_p5_2.jpg", true)
+      ]}
+    ]
+  },
+  {
+    tab: "EP006",
+    pov: "낙엽 길만 걸어도 화보 되는 가을 코디",
+    looks: [
+      { name: "러스트 코듀로이 코디", imgs: ["ep6s_l1_1.jpg","ep6s_l1_2.jpg","ep6s_l1_3.jpg"], items: [
+        P("코듀로이 크롭 포켓 자켓", 31900, "9152197200","26949792027","93918873343", "ep6_p1_1.jpg", true),
+        P("심플 플리츠 스커트", 18360, "9129046789","26859645504","93829341117", "ep6_p1_2.jpg", true),
+        P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p1_3.jpg", true)
+      ]},
+      { name: "올리브 트렌치 코디", imgs: ["ep6s_l2_1.jpg","ep6s_l2_2.jpg","ep6s_l2_3.jpg"], items: [
+        P("더블 벨티드 롱 트렌치 코트", 54700, "8349404281","26818905215","93789109694", "ep6_p2_1.jpg", true),
+        P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p2_2.jpg", true)
+      ]},
+      { name: "버건디 가디건 코디", imgs: ["ep6s_l3_1.jpg","ep6s_l3_2.jpg","ep6s_l3_3.jpg"], items: [
+        P("브이넥 소프트 니트 가디건", 19800, "9701022570","29019791933","95947538909", "ep6_p3_1.jpg", true),
+        P("캐주얼 플리츠 스커트", 15740, "9302927485","27559821414","94523883504", "ep6_p3_2.jpg", true),
+        P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p3_3.jpg", true)
+      ]},
+      { name: "레드 체크 원피스 코디", imgs: ["ep6s_l4_1.jpg","ep6s_l4_2.jpg","ep6s_l4_3.jpg"], items: [
+        P("빈티지 체크 셔츠 미니 원피스", 40110, "9264905410","27416094712","94381663249", "ep6_p4_1.jpg", true),
+        P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p4_2.jpg", true)
+      ]},
+      { name: "그린 니트 코디", imgs: ["ep6s_l5_1.jpg","ep6s_l5_2.jpg","ep6s_l5_3.jpg"], items: [
+        P("라운드 데일리 니트", 14480, "8952726300","26188951599","93168370284", "ep6_p5_1.jpg", true),
+        P("H라인 데님 미니스커트", 20900, "9771570132","29248838436","96167036793", "ep6_p5_2.jpg", true),
+        P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p5_3.jpg", true)
+      ]}
+    ]
+  },
+  {
+    tab: "EP007",
+    pov: "겨울 오기 전에 호수 가야 하는 인생 코디",
+    looks: [
+      { name: "블랙 롱 푸퍼 코디", imgs: ["ep7s_l1_1.jpg","ep7s_l1_2.jpg","ep7s_l1_3.jpg"], items: [
+        P("베이직 숏 패딩 점퍼", 19500, "9099623568","26748846509","93741502462", "ep7_p1_1.jpg", true),
+        P("캐주얼 플리츠 스커트(그레이)", 15740, "9302927485","27559821444","94523883535", "ep7_p1_2.jpg", true),
+        P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p1_3.jpg", true)
+      ]},
+      { name: "퍼 칼라 랩코트 코디", imgs: ["ep7s_l2_1.jpg","ep7s_l2_2.jpg","ep7s_l2_3.jpg"], items: [
+        P("퍼트리밍 벨트 하프코트", 42600, "9776920466","29268063828","96185423157", "ep7_p2_1.jpg", true),
+        P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p2_2.jpg", true)
+      ]},
+      { name: "그레이 터틀 원피스 코디", imgs: ["ep7s_l3_1.jpg","ep7s_l3_2.jpg","ep7s_l3_3.jpg"], items: [
+        P("터틀넥 셔링 원피스", 16900, "9328317762","27653994076","94921926484", "ep7_p3_1.jpg", true),
+        P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p3_2.jpg", true)
+      ]},
+      { name: "베이지 니트 코디", imgs: ["ep7s_l4_1.jpg","ep7s_l4_2.jpg","ep7s_l4_3.jpg"], items: [
+        P("울 랩 스타일 롱 코트", 104000, "9766562679","29231813844","96150843852", "ep7_p4_1.jpg", true),
+        P("오프넥 니트 슬림 원피스(베이지)", 27180, "8971720618","26258122341","93236485994", "ep7_p4_2.jpg", true),
+        P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p4_3.jpg", true)
+      ]},
+      { name: "핑크 가디건 코디", imgs: ["ep7s_l5_1.jpg","ep7s_l5_2.jpg","ep7s_l5_3.jpg"], items: [
+        P("보송 폭닥 라운드넥 니트 가디건", 18900, "8657689478","25127789895","92175125368", "ep7_p5_1.jpg", true),
+        P("니트 플레어 스커트", 27000, "7579095839","20003432455","87068071716", "ep7_p5_2.jpg", true),
+        P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p5_3.jpg", true)
+      ]}
+    ]
+  },
+  {
+    tab: "EP008",
+    pov: "비 그치면 입으려고 아껴둔 코디 꺼냄",
+    looks: [
+      { name: "네이비 더블 코트 코디", imgs: ["ep8s_l1_1.jpg","ep8s_l1_2.jpg","ep8s_l1_3.jpg"], items: [] },
+      { name: "블랙 리브 니트 원피스 코디", imgs: ["ep8s_l2_1.jpg","ep8s_l2_2.jpg","ep8s_l2_3.jpg"], items: [] },
+      { name: "아이보리 니트 세트 코디", imgs: ["ep8s_l3_1.jpg","ep8s_l3_2.jpg","ep8s_l3_3.jpg"], items: [] },
+      { name: "라이트블루 트위드 코디", imgs: ["ep8s_l4_1.jpg","ep8s_l4_2.jpg","ep8s_l4_3.jpg"], items: [] },
+      { name: "브라운 스웨이드 재킷 코디", imgs: ["ep8s_l5_1.jpg","ep8s_l5_2.jpg","ep8s_l5_3.jpg"], items: [] }
     ]
   }
 ];
