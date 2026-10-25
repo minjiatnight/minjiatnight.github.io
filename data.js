@@ -127,7 +127,30 @@ const PLINK = {
 "https://www.coupang.com/vp/products/6696891375?itemId=15496862015&vendorItemId=82716200430": "https://link.coupang.com/a/h4yFDpHCRE",
 "https://www.coupang.com/vp/products/9391294222?itemId=27888906485&vendorItemId=94847897071": "https://link.coupang.com/a/h4yFVGOt6i",
 "https://www.coupang.com/vp/products/9076944625?itemId=26662196447&vendorItemId=93634579792": "https://link.coupang.com/a/h4yF9pCQUe",
-"https://www.coupang.com/vp/products/7967516887?itemId=22052595976&vendorItemId=89099854456": "https://link.coupang.com/a/h4yGrOBLO0"
+"https://www.coupang.com/vp/products/7967516887?itemId=22052595976&vendorItemId=89099854456": "https://link.coupang.com/a/h4yGrOBLO0",
+"https://www.coupang.com/vp/products/7168225958?itemId=18053478941&vendorItemId=85207439907": "https://link.coupang.com/a/h4X9D91xZc",
+"https://www.coupang.com/vp/products/9217261085?itemId=27233083492&vendorItemId=94200215269": "https://link.coupang.com/a/h4X3BmePp6",
+"https://www.coupang.com/vp/products/9138294948?itemId=26898153844&vendorItemId=93867611266": "https://link.coupang.com/a/h4X3GdAhz2",
+"https://www.coupang.com/vp/products/8457521343?itemId=24463547558&vendorItemId=91477190810": "https://link.coupang.com/a/h4YkxvsCaW",
+"https://www.coupang.com/vp/products/7714264262?itemId=20686530753&vendorItemId=87743382011": "https://link.coupang.com/a/h4X3OtbZWS",
+"https://www.coupang.com/vp/products/9715201596?itemId=29070031034&vendorItemId=95997008907": "https://link.coupang.com/a/h4X3Sp1ANE",
+"https://www.coupang.com/vp/products/9113221703?itemId=26797871629&vendorItemId=93804127729": "https://link.coupang.com/a/h4X9ZquCKy",
+"https://www.coupang.com/vp/products/9328319111?itemId=27653999534&vendorItemId=95908089472": "https://link.coupang.com/a/h4X31GBevs",
+"https://www.coupang.com/vp/products/9205547805?itemId=27185438499&vendorItemId=94152975705": "https://link.coupang.com/a/h4X93Egi7g",
+"https://www.coupang.com/vp/products/6868009336?itemId=16420793351&vendorItemId=83611697259": "https://link.coupang.com/a/h4X39uxtgy",
+"https://www.coupang.com/vp/products/9138274023?itemId=26898058804&vendorItemId=93867516661": "https://link.coupang.com/a/h4X4dPr9qe",
+"https://www.coupang.com/vp/products/6908689237?itemId=16641950587&vendorItemId=83826099581": "https://link.coupang.com/a/h4X4h7ZuyO",
+"https://www.coupang.com/vp/products/2211376600?itemId=3764709065&vendorItemId=90889279588": "https://link.coupang.com/a/h4X4miz33A",
+"https://www.coupang.com/vp/products/7183430839?itemId=18121492206&vendorItemId=85285276543": "https://link.coupang.com/a/h4X4qQCNm8",
+"https://www.coupang.com/vp/products/9395957365?itemId=27904965570&vendorItemId=94863734167": "https://link.coupang.com/a/h4YapnH9zw",
+"https://www.coupang.com/vp/products/7335131904?itemId=18840289129&vendorItemId=85969987476": "https://link.coupang.com/a/h4X4zmi6a4",
+"https://www.coupang.com/vp/products/7571631091?itemId=19969629795&vendorItemId=87068162804": "https://link.coupang.com/a/h4YatBEobQ",
+"https://www.coupang.com/vp/products/8620974140?itemId=25011174901&vendorItemId=92016084011": "https://link.coupang.com/a/h4X4HKDFCe",
+"https://www.coupang.com/vp/products/9783383816?itemId=29290143006&vendorItemId=96206334204": "https://link.coupang.com/a/h4X4L6EUhg",
+"https://www.coupang.com/vp/products/8017012235?itemId=22391719376&vendorItemId=92731969059": "https://link.coupang.com/a/h4YaKH7L8S",
+"https://www.coupang.com/vp/products/9180846358?itemId=27074707949&vendorItemId=94043231291": "https://link.coupang.com/a/h4X4UyeARo",
+"https://www.coupang.com/vp/products/8599553600?itemId=24935292129&vendorItemId=91941391436": "https://link.coupang.com/a/h4X4YRUkwe",
+"https://www.coupang.com/vp/products/7214723152?itemId=18267520181&vendorItemId=93359496716": "https://link.coupang.com/a/h4X43kNsJ2"
 };
 const P = (name, price, id, item, vendor, img, ok, hide) => {
   const long = "https://www.coupang.com/vp/products/" + id + "?itemId=" + item + "&vendorItemId=" + vendor;
@@ -391,6 +414,89 @@ const EPISODES = [
         P("베이지 골지 니트 티셔츠", 24900, "7967516887","22052595976","89099854456", "ep8_p5_2.jpg", true),
         P("블랙 플리츠 스커트", 18360, "9129046789","26859645509","93829341114", "ep8_p5_3.jpg", true),
         P("브라운 롱부츠", 20330, "9693291381","28992181372","95920898209", "ep8_p5_4.jpg", true)
+      ]}
+    ]
+  },
+  {
+    tab: "EP009",
+    pov: "일교차 큰 날 카페 거리 나갈 때 입는 코디",
+    looks: [
+      { name: "블랙 레더 재킷 코디", imgs: ["ep9s_l1_1.jpg"], items: [
+        {name:"블랙 오버핏 레더 자켓", price:44500, ok:true, hide:false, url:"https://link.coupang.com/a/h6uHuIuc0G", img:"ep9f_l1_1.jpg"},
+        {name:"화이트 슬림핏 긴팔 티셔츠", price:7900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uJuWeIQS", img:"ep9f_l1_2.jpg"},
+        {name:"블랙 플리츠 미니스커트", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uQqkMWnR", img:"ep9f_l1_3.jpg"},
+        {name:"레드 머플러 스카프", price:23900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uJ6vw4ei", img:"ep9f_l1_4.jpg"},
+        {name:"블랙 청키 숏부츠", price:29900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uKoOo2Gy", img:"ep9f_l1_5.jpg"},
+        {name:"블랙 퀼팅 체인 크로스백", price:19900, ok:true, hide:false, url:"https://link.coupang.com/a/h8bJ32AEgK", img:"ep9f_l1_6.jpg"}
+      ]},
+      { name: "헤어리 니트 코디", imgs: ["ep9s_l2_1.jpg"], items: [
+        {name:"아이보리 헤어리 롱 니트", price:25250, ok:true, hide:false, url:"https://link.coupang.com/a/h6uKHlrhdI", img:"ep9f_l2_1.jpg"},
+        {name:"레드 블랙 체크 플리츠 미니", price:17900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uKZ1AvVQ", img:"ep9f_l2_2.jpg"},
+        {name:"블랙 150D 스타킹", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h6uUSdOu0O", img:"ep9f_l2_3.jpg"},
+        {name:"블랙 롱부츠", price:41320, ok:true, hide:false, url:"https://link.coupang.com/a/h6uLAGton6", img:"ep9f_l2_4.jpg"},
+        {name:"블랙 퀼팅 체인 크로스백", price:19900, ok:true, hide:false, url:"https://link.coupang.com/a/h8bJ32AEgK", img:"ep9f_l2_5.jpg"}
+      ]},
+      { name: "핑크 가디건 코디", imgs: ["ep9s_l3_1.jpg"], items: [
+        {name:"핑크 라운드넥 니트 가디건", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uMgcEQ3w", img:"ep9f_l3_1.jpg"},
+        {name:"화이트 레이스 캐미솔", price:12500, ok:true, hide:false, url:"https://link.coupang.com/a/h6uMyEP4mG", img:"ep9f_l3_2.jpg"},
+        {name:"블랙 리본 벌룬 미니스커트", price:16110, ok:true, hide:false, url:"https://link.coupang.com/a/h6uQ8BHyCW", img:"ep9f_l3_3.jpg"},
+        {name:"블랙 150D 스타킹", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h6uUSdOu0O", img:"ep9f_l3_4.jpg"},
+        {name:"블랙 청키 로퍼", price:27900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uM9Dutxs", img:"ep9f_l3_5.jpg"},
+        {name:"블랙 퀼팅 체인 크로스백", price:19900, ok:true, hide:false, url:"https://link.coupang.com/a/h8bJ32AEgK", img:"ep9f_l3_6.jpg"}
+      ]},
+      { name: "가지색 니트 코디", imgs: ["ep9s_l4_1.jpg"], items: [
+        {name:"퍼플(가지색) 라운드넥 니트", price:14500, ok:true, hide:false, url:"https://link.coupang.com/a/h6uNr5Y7ZA", img:"ep9f_l4_1.jpg"},
+        {name:"블랙 플리츠 미니스커트", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uQqkMWnR", img:"ep9f_l4_2.jpg"},
+        {name:"블랙 150D 스타킹", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h6uUSdOu0O", img:"ep9f_l4_3.jpg"},
+        {name:"블랙 청키 로퍼", price:27900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uM9Dutxs", img:"ep9f_l4_4.jpg"},
+        {name:"블랙 퀼팅 체인 크로스백", price:19900, ok:true, hide:false, url:"https://link.coupang.com/a/h8bJ32AEgK", img:"ep9f_l4_5.jpg"}
+      ]},
+      { name: "퍼 재킷 코디", imgs: ["ep9s_l5_1.jpg"], items: [
+        {name:"브라운 페이크 퍼 자켓", price:49410, ok:true, hide:false, url:"https://link.coupang.com/a/h6uNKykpIy", img:"ep9f_l5_1.jpg"},
+        {name:"화이트 목폴라 니트", price:13190, ok:true, hide:false, url:"https://link.coupang.com/a/h6uN27dBLg", img:"ep9f_l5_2.jpg"},
+        {name:"블랙 플리츠 미니스커트", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uQqkMWnR", img:"ep9f_l5_3.jpg"},
+        {name:"블랙 롱부츠", price:41320, ok:true, hide:false, url:"https://link.coupang.com/a/h6uLAGton6", img:"ep9f_l5_4.jpg"},
+        {name:"레드 미니 크로스백", price:14950, ok:true, hide:false, url:"https://link.coupang.com/a/h6uOlqUHbo", img:"ep9f_l5_5.jpg"}
+      ]}
+    ]
+  },
+  {
+    tab: "EP010",
+    pov: "연말 약속 코디 고르다 옷장 다 꺼내놓음",
+    looks: [
+      { name: "크림 헤어리 니트 코디", imgs: ["ep10s_l1_1.jpg"], items: [
+        {name:"아이보리 헤어리 롱 니트", price:25250, ok:true, hide:false, url:"https://link.coupang.com/a/h6uKHlrhdI", img:"ep10f_l1_1.jpg"},
+        {name:"레드 블랙 체크 플리츠 미니", price:17900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uKZ1AvVQ", img:"ep10f_l1_2.jpg"},
+        {name:"블랙 150D 스타킹", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h6uUSdOu0O", img:"ep10f_l1_3.jpg"},
+        {name:"블랙 롱부츠", price:41320, ok:true, hide:false, url:"https://link.coupang.com/a/h6uLAGton6", img:"ep10f_l1_4.jpg"}
+      ]},
+      { name: "레더 재킷·레드 스카프 코디", imgs: ["ep10s_l2_1.jpg"], items: [
+        {name:"블랙 오버핏 레더 자켓", price:44500, ok:true, hide:false, url:"https://link.coupang.com/a/h6uHuIuc0G", img:"ep10f_l2_1.jpg"},
+        {name:"화이트 슬림핏 긴팔 티셔츠", price:7900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uJuWeIQS", img:"ep10f_l2_2.jpg"},
+        {name:"블랙 플리츠 미니스커트", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uQqkMWnR", img:"ep10f_l2_3.jpg"},
+        {name:"레드 머플러 스카프", price:23900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uJ6vw4ei", img:"ep10f_l2_4.jpg"},
+        {name:"블랙 청키 로퍼", price:27900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uM9Dutxs", img:"ep10f_l2_5.jpg"},
+        {name:"블랙 150D 스타킹", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h6uUSdOu0O", img:"ep10f_l2_6.jpg"}
+      ]},
+      { name: "핑크 가디건 코디", imgs: ["ep10s_l3_1.jpg"], items: [
+        {name:"핑크 라운드넥 니트 가디건", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uMgcEQ3w", img:"ep10f_l3_1.jpg"},
+        {name:"화이트 레이스 캐미솔", price:12500, ok:true, hide:false, url:"https://link.coupang.com/a/h6uMyEP4mG", img:"ep10f_l3_2.jpg"},
+        {name:"블랙 리본 벌룬 미니스커트", price:16110, ok:true, hide:false, url:"https://link.coupang.com/a/h6uQ8BHyCW", img:"ep10f_l3_3.jpg"},
+        {name:"블랙 150D 스타킹", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h6uUSdOu0O", img:"ep10f_l3_4.jpg"},
+        {name:"블랙 롱부츠", price:41320, ok:true, hide:false, url:"https://link.coupang.com/a/h6uLAGton6", img:"ep10f_l3_5.jpg"}
+      ]},
+      { name: "가지색 니트 코디", imgs: ["ep10s_l4_1.jpg"], items: [
+        {name:"퍼플(가지색) 라운드넥 니트", price:14500, ok:true, hide:false, url:"https://link.coupang.com/a/h6uNr5Y7ZA", img:"ep10f_l4_1.jpg"},
+        {name:"레드 블랙 체크 플리츠 미니", price:17900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uKZ1AvVQ", img:"ep10f_l4_2.jpg"},
+        {name:"블랙 150D 스타킹", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h6uUSdOu0O", img:"ep10f_l4_3.jpg"},
+        {name:"블랙 롱부츠", price:41320, ok:true, hide:false, url:"https://link.coupang.com/a/h6uLAGton6", img:"ep10f_l4_4.jpg"}
+      ]},
+      { name: "퍼 재킷 코디", imgs: ["ep10s_l5_1.jpg"], items: [
+        {name:"브라운 페이크 퍼 자켓", price:49410, ok:true, hide:false, url:"https://link.coupang.com/a/h6uNKykpIy", img:"ep10f_l5_1.jpg"},
+        {name:"화이트 목폴라 니트", price:13190, ok:true, hide:false, url:"https://link.coupang.com/a/h6uN27dBLg", img:"ep10f_l5_2.jpg"},
+        {name:"블랙 플리츠 미니스커트", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uQqkMWnR", img:"ep10f_l5_3.jpg"},
+        {name:"블랙 청키 로퍼", price:27900, ok:true, hide:false, url:"https://link.coupang.com/a/h6uM9Dutxs", img:"ep10f_l5_4.jpg"},
+        {name:"레드 미니 크로스백", price:14950, ok:true, hide:false, url:"https://link.coupang.com/a/h6uOlqUHbo", img:"ep10f_l5_5.jpg"}
       ]}
     ]
   }

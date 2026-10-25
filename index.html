@@ -89,7 +89,7 @@
     사진은 AI로 생성한 이미지예요. 실제 상품과 색상·핏이 다를 수 있으니 상품 페이지의 색상·사이즈 옵션을 꼭 확인해 주세요.
   </footer>
 </div>
-<script src="data.js?v=20261023b"></script>
+<script src="data.js?v=20261025a"></script>
 <script>
   const $ = id => document.getElementById(id);
   const won = n => n ? n.toLocaleString('ko-KR') + '원' : '';
@@ -100,12 +100,12 @@
       '<img loading="lazy" src="img/'+it.img+'" alt="">' +
       '<div class="name">'+it.name+'</div><div class="price">'+won(it.price)+'</div>' +
       (it.ok?'':'<span class="tag">색상 확인 중</span>') + '<span class="go">보러가기 ›</span></a>').join('');
-    return '<section class="look">' + (label?'<div class="eplabel">'+ep.tab+' · POV : '+ep.pov+'</div>':'') + '<h2><span>Look '+(n+1)+'</span>'+l.name+'</h2>' + (gal?'<div class="gallery">'+gal+'</div>':'') + '<div class="items">'+items+'</div>' + '</section>';
+    return '<section class="look">' + (label?'<div class="eplabel">'+ep.tab+(ep.pov?' · POV : '+ep.pov:'')+'</div>':'') + '<h2><span>Look '+(n+1)+'</span>'+l.name+'</h2>' + (gal?'<div class="gallery">'+gal+'</div>':'') + '<div class="items">'+items+'</div>' + '</section>';
   }
   function render(i){
     const ep = EPISODES[i];
     [...$('tabs').children].forEach((b,j)=>b.setAttribute('aria-selected', j===i));
-    $('pov').textContent = 'POV : ' + ep.pov;
+    $('pov').textContent = ep.pov ? 'POV : ' + ep.pov : '';
     $('looks').innerHTML = ep.looks.map((l,n)=>lookHtml(ep,l,n,false)).join('');
   }
   // 검색: 에피소드 번호·POV·룩 이름·상품명에서 찾는다(공백으로 나눈 낱말이 모두 들어 있어야 함)
