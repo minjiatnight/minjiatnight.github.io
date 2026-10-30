@@ -499,5 +499,44 @@ const EPISODES = [
         {name:"레드 미니 크로스백", price:14950, ok:true, hide:false, url:"https://link.coupang.com/a/h6uOlqUHbo", img:"ep10f_l5_5.jpg"}
       ]}
     ]
+  },
+  {
+    tab: "EP011",
+    pov: "전남친도 오는 결혼식, 인생 하객룩 찾아냄",
+    looks: [
+      { name: "시스루 리본 블라우스 하객룩", imgs: ["ep11s_l1_1.jpg"], items: [
+        {name:"블랙 퍼프소매 리본 블라우스", price:23780, ok:true, hide:false, url:"https://link.coupang.com/a/igrVuMy7Oe", img:"ep11s2_sheer_ribbon.jpg"},
+        {name:"와인 끈나시 이너", price:14800, ok:true, hide:false, url:"https://link.coupang.com/a/igmHDAySOG", img:"ep11v2_burg_cami.jpg"},
+        {name:"그레이 미디 플리츠 스커트", price:16400, ok:true, hide:false, url:"https://link.coupang.com/a/igmIewjghE", img:"ep11v2_gray_pleat.jpg"},
+        {name:"블랙 메리제인 플랫슈즈", price:19520, ok:true, hide:false, url:"https://link.coupang.com/a/igsb3ZONiK", img:"ep11s2_mary_jane.jpg"},
+        {name:"진주 목걸이", price:5400, ok:true, hide:false, url:"https://link.coupang.com/a/igmIPyKQxg", img:"ep11v2_pearl_nk.jpg"}
+      ]},
+      { name: "네이비 트위드 자켓 하객룩", imgs: ["ep11s_l2_1.jpg"], items: [
+        {name:"네이비 트위드 노카라 자켓", price:29900, ok:true, hide:false, url:"https://link.coupang.com/a/igmKtEjn4e", img:"ep11v2_navy_tweed.jpg"},
+        {name:"그레이 골지 니트 이너", price:13900, ok:true, hide:false, url:"https://link.coupang.com/a/igmK4wP1Do", img:"ep11v2_gray_knit.jpg"},
+        {name:"다크그레이 티어드 니트 스커트", price:41200, ok:true, hide:false, url:"https://link.coupang.com/a/igmLFzL6bs", img:"ep11v2_char_tiered.jpg"},
+        {name:"블랙 퀼팅 체인 숄더백", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/igrQ4B6bPU", img:"ep11s2_chain_bag.jpg"},
+        {name:"블랙 페니 로퍼", price:29700, ok:true, hide:false, url:"https://link.coupang.com/a/h866f6wnuK", img:"ep11n_blk_loafer.jpg"}
+      ]},
+      { name: "러스트 프릴 블라우스 하객룩", imgs: ["ep11s_l3_1.jpg"], items: [
+        {name:"러스트 브라운 프릴 카라 블라우스", price:18800, ok:true, hide:false, url:"https://link.coupang.com/a/igmNX27KMu", img:"ep11v2_burg_frill.jpg"},
+        {name:"브라운 플리츠 롱스커트", price:20710, ok:true, hide:false, url:"https://link.coupang.com/a/igrRFr3qmG", img:"ep11s2_brown_pleat.jpg"},
+        {name:"와인 벨벳 리본 헤어핀", price:9900, ok:true, hide:false, url:"https://link.coupang.com/a/igrSgmliBU", img:"ep11s2_ribbon_pin.jpg"},
+        {name:"블랙 메리제인 플랫슈즈", price:19520, ok:true, hide:false, url:"https://link.coupang.com/a/igsb3ZONiK", img:"ep11s2_mary_jane.jpg"}
+      ]},
+      { name: "딥퍼플 니트 원피스 하객룩", imgs: ["ep11s_l4_1.jpg"], items: [
+        {name:"딥퍼플 니트 롱원피스", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h83fQkLyk8", img:"ep11n_purple_dress.jpg"},
+        {name:"블랙 시스루 크롭 볼레로", price:9900, ok:true, hide:false, url:"https://link.coupang.com/a/igmPKFZw8i", img:"ep11v2_sheer_bolero.jpg"},
+        {name:"블랙 가죽 클러치", price:11900, ok:true, hide:false, url:"https://link.coupang.com/a/igmRYOGiOW", img:"ep11v2_clutch.jpg"},
+        {name:"진주 귀걸이", price:10520, ok:true, hide:false, url:"https://link.coupang.com/a/igmRnX6lAP", img:"ep11v2_pearl_ear.jpg"},
+        {name:"블랙 메리제인 플랫슈즈", price:19520, ok:true, hide:false, url:"https://link.coupang.com/a/igsb3ZONiK", img:"ep11s2_mary_jane.jpg"}
+      ]},
+      { name: "그레이 울 셋업 하객룩", imgs: ["ep11s_l5_1.jpg"], items: [
+        {name:"그레이 울 더블 셋업", price:53460, ok:true, hide:false, url:"https://link.coupang.com/a/h83gr8hGeG", img:"ep11n_check_set.jpg"},
+        {name:"블랙 레이스 캐미 이너", price:10400, ok:true, hide:false, url:"https://link.coupang.com/a/igmSzHY1OC", img:"ep11v2_lace_cami.jpg"},
+        {name:"블랙 가죽 클러치", price:11900, ok:true, hide:false, url:"https://link.coupang.com/a/igmRYOGiOW", img:"ep11v2_clutch.jpg"},
+        {name:"블랙 페니 로퍼", price:29700, ok:true, hide:false, url:"https://link.coupang.com/a/h866f6wnuK", img:"ep11n_blk_loafer.jpg"}
+      ]}
+    ]
   }
 ];
