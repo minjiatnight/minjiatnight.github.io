@@ -538,5 +538,38 @@ const EPISODES = [
         {name:"블랙 페니 로퍼", price:29700, ok:true, hide:false, url:"https://link.coupang.com/a/h866f6wnuK", img:"ep11n_blk_loafer.jpg"}
       ]}
     ]
+  },
+  {
+    tab: "EP012",
+    pov: "소개팅 1트에 고백 받는 가을 코디 찾아냄",
+    looks: [
+      { name: "걸리시 소개팅 룩", imgs: ["ep12s_l1_1.jpg","ep12s_l1_2.jpg","ep12s_l1_3.jpg"], items: [
+        {name:"아이보리 오프숄더 루즈핏 니트", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/im0E4WDNSK", img:"ep12_L1_00.jpg"},
+        {name:"화이트 레이스 캉캉 밴딩 미니스커트", price:14800, ok:true, hide:false, url:"https://link.coupang.com/a/im0FXJZZLg", img:"ep12_L1_01.jpg"},
+        {name:"베이지 웨지굽 슬라우치 니하이부츠", price:64200, ok:true, hide:false, url:"https://link.coupang.com/a/im0GMzRqMu", img:"ep12_L1_02.jpg"},
+        {name:"버건디 가죽 토트 숄더백", price:26970, ok:true, hide:false, url:"https://link.coupang.com/a/im0HAuqkPQ", img:"ep12_L1_03.jpg"}
+      ]},
+      { name: "프레피 시크 룩", imgs: ["ep12s_l2_1.jpg","ep12s_l2_2.jpg","ep12s_l2_3.jpg"], items: [
+        {name:"버건디 라운드넥 니트", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/im0Jn04Rpt", img:"ep12_L2_04.jpg"},
+        {name:"화이트 쉬폰 롱스카프", price:9900, ok:true, hide:false, url:"https://link.coupang.com/a/im0Ym2wq6e", img:"ep12_L2_05.jpg"},
+        {name:"화이트 캉캉 플레어 미니스커트", price:13000, ok:true, hide:false, url:"https://link.coupang.com/a/im1adJbNYa", img:"ep12_L2_06.jpg"}
+      ]},
+      { name: "걸리시 고프코어 룩", imgs: ["ep12s_l3_1.jpg","ep12s_l3_2.jpg","ep12s_l3_3.jpg"], items: [
+        {name:"카키 크롭 후드집업", price:38480, ok:true, hide:false, url:"https://link.coupang.com/a/im0LO8jYZM", img:"ep12_L3_07.jpg"},
+        {name:"화이트 2단 프릴 레이어드 나시", price:15980, ok:true, hide:false, url:"https://link.coupang.com/a/im0NRBVg7g", img:"ep12_L3_08.jpg"},
+        {name:"브라운 셔링 버클 바이커 롱부츠", price:31900, ok:true, hide:false, url:"https://link.coupang.com/a/im0OG0sdjw", img:"ep12_L3_09.jpg"}
+      ]},
+      { name: "락시크 룩", imgs: ["ep12s_l4_1.jpg","ep12s_l4_2.jpg","ep12s_l4_3.jpg"], items: [
+        {name:"베이지 오프숄더 긴팔 블라우스", price:9600, ok:true, hide:false, url:"https://link.coupang.com/a/im0PvhZxL2", img:"ep12_L4_10.jpg"},
+        {name:"브라운 레더 가죽 미니스커트", price:16900, ok:true, hide:false, url:"https://link.coupang.com/a/im1i9hnn5w", img:"ep12_L4_11.jpg"},
+        {name:"블랙 버클 청키 미들 바이커 부츠", price:42200, ok:true, hide:false, url:"https://link.coupang.com/a/im0R3EswZF", img:"ep12_L4_12.jpg"},
+        {name:"블랙 소가죽 미니 토트백", price:45800, ok:true, hide:false, url:"https://link.coupang.com/a/im0SR3arg4", img:"ep12_L4_13.jpg"}
+      ]},
+      { name: "로맨틱 플라워 룩", imgs: ["ep12s_l5_1.jpg","ep12s_l5_2.jpg","ep12s_l5_3.jpg"], items: [
+        {name:"아이보리 잔골지 립넥 니트", price:15500, ok:true, hide:false, url:"https://link.coupang.com/a/im04BHjboW", img:"ep12_L5_14.jpg"},
+        {name:"퍼플 빈티지 플라워 쉬폰 롱스커트", price:29800, ok:true, hide:false, url:"https://link.coupang.com/a/im09ptr8qO", img:"ep12_L5_15.jpg"},
+        {name:"아이보리 미니 바게트백", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/im0WbOIRem", img:"ep12_L5_16.jpg"}
+      ]}
+    ]
   }
 ];
