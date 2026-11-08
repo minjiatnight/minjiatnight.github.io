@@ -608,5 +608,44 @@ const EPISODES = [
         {name:"미니 바게트백 데일리 숄더백 여성 미니가방", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/isx6l2tTdQ", img:"ep13n_white_mini_bag.jpg"}
       ]}
     ]
+  },
+  {
+    tab: "EP014",
+    pov: "송년회에서 전남친 마주쳐도 ㅆㄱㄴ한 연말 코디",
+    looks: [
+      { name: "다크 로맨틱 버건디 룩", imgs: ["ep14s_l1_1.jpg","ep14s_l1_2.jpg"], items: [
+        {name:"버건디 크롭 브이넥 니트 가디건", price:15430, ok:true, hide:false, url:"https://link.coupang.com/a/iu3aVxoV0m", img:"ep14n_burgundy_cardi.jpg"},
+        {name:"블랙 레이어드 레이스 나시", price:15900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3bxMnMRM", img:"ep14n_lace_tank.jpg"},
+        {name:"여성용 코듀로이 플리츠 미니 스커트", price:14890, ok:true, hide:false, url:"https://link.coupang.com/a/isyw5hNd7s", img:"ep14n_blk_pleat_mini.jpg"},
+        {name:"블랙 벨벳 리본 헤어핀", price:8900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3ewFyOES", img:"ep14n_ribbon_pin.jpg"},
+        {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep14n_blk_longboots.jpg"}
+      ]},
+      { name: "타탄 체크 걸리시 룩", imgs: ["ep14s_l2_1.jpg","ep14s_l2_2.jpg"], items: [
+        {name:"버건디 타탄체크 크롭 셔츠 자켓", price:35100, ok:true, hide:false, url:"https://link.coupang.com/a/iu3veaFnoG", img:"ep14n_tartan_jkt.jpg"},
+        {name:"레드 타탄 체크 미니 스커트", price:15800, ok:true, hide:false, url:"https://link.coupang.com/a/iu3fxYmLSK", img:"ep14n_tartan_skirt.jpg"},
+        {name:"블랙 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3fWKOWku", img:"ep14n_elle_turtle_blk.jpg"},
+        {name:"블랙 레이스업 통굽 워커부츠", price:24900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gtt9r9o", img:"ep14n_boots_sn601.jpg"}
+      ]},
+      { name: "코발트 포인트 룩", imgs: ["ep14s_l3_1.jpg","ep14s_l3_2.jpg"], items: [
+        {name:"코발트블루 브이넥 니트 가디건", price:18890, ok:true, hide:false, url:"https://link.coupang.com/a/iu3nAuP0F2", img:"ep14n_cobalt_cardi.jpg"},
+        {name:"아이보리 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gatQSVo", img:"ep14n_elle_turtle_ivory.jpg"},
+        {name:"화이트 하이웨스트 플리츠 미니스커트", price:9350, ok:true, hide:false, url:"https://link.coupang.com/a/iu3CTdDrs4", img:"ep14n_elle_pleat_white.jpg"},
+        {name:"블랙 메리제인 통굽 로퍼", price:19900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gMltFaS", img:"ep14n_maryjane.jpg"},
+        {name:"여성 니트 레그워머 발토시 종아리커버 니트 삭스 무지 TTW001", price:8640, ok:true, hide:false, url:"https://link.coupang.com/a/isxXBa3cnQ", img:"ep14n_white_legwarmer.jpg"}
+      ]},
+      { name: "와인 벨벳 파티 룩", imgs: ["ep14s_l4_1.jpg","ep14s_l4_2.jpg"], items: [
+        {name:"와인 벨벳 미니원피스", price:22910, ok:true, hide:false, url:"https://link.coupang.com/a/iu4AgmuiyW", img:"ep14n_wine_velvet.jpg"},
+        {name:"블랙 페이크 퍼 크롭 자켓", price:41800, ok:true, hide:false, url:"https://link.coupang.com/a/iu3hiFLiCq", img:"ep14n_fur_crop_blk.jpg"},
+        {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep14n_blk_longboots.jpg"},
+        {name:"마리하우스 체인 크로스 미니 숄더백", price:9800, ok:true, hide:false, url:"https://link.coupang.com/a/isx22PD6nk", img:"ep14n_blk_chain_bag.jpg"}
+      ]},
+      { name: "포근 크림 퍼 룩", imgs: ["ep14s_l5_1.jpg","ep14s_l5_2.jpg"], items: [
+        {name:"아이보리 하이넥 크롭 퍼 자켓", price:49800, ok:true, hide:false, url:"https://link.coupang.com/a/iu3hsGloT6", img:"ep14n_cream_fur_jkt.jpg"},
+        {name:"블랙 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3fWKOWku", img:"ep14n_elle_turtle_blk.jpg"},
+        {name:"화이트 하이웨스트 플리츠 미니스커트", price:9350, ok:true, hide:false, url:"https://link.coupang.com/a/iu3CTdDrs4", img:"ep14n_elle_pleat_white.jpg"},
+        {name:"라블 통 큰 웨스턴 스타일 스웨이드 롱부츠 미들부츠 시리즈", price:22900, ok:true, hide:false, url:"https://link.coupang.com/a/isx5ybTmZo", img:"ep14n_beige_longboots.jpg"},
+        {name:"미니 바게트백 데일리 숄더백 여성 미니가방", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/isx6l2tTdQ", img:"ep14n_white_mini_bag.jpg"}
+      ]}
+    ]
   }
 ];
