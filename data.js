@@ -611,7 +611,7 @@ const EPISODES = [
   },
   {
     tab: "EP014",
-    pov: "송년회에서 전남친 마주쳐도 ㅆㄱㄴ한 연말 코디",
+    pov: "오늘 코디 ㄹㅈㄷ라서 약속 없어도 일단 나감",
     looks: [
       { name: "다크 로맨틱 버건디 룩", imgs: ["ep14s_l1_1.jpg"], items: [
         {name:"버건디 크롭 브이넥 니트 가디건", price:15430, ok:true, hide:false, url:"https://link.coupang.com/a/iu3aVxoV0m", img:"ep14n_burgundy_cardi.jpg"},
