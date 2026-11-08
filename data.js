@@ -161,21 +161,21 @@ const EPISODES = [
     tab: "EP001",
     pov: "은근 잘 보이고 싶을 때",
     looks: [
-      { name: "와인 테니스 코디", imgs: IMGS[1], items: [
+      { name: "와인 테니스 코디", imgs: [IMGS[1][0]], items: [
         P("7APRIL 여성용 브이넥 크롭 니트 가디건 (레드와인)", 15290, "8357643532","24283933312","91300241509", "ep1_p1_2b.jpg", true),
         P("A라인 밴딩 스판 골프 테니스 미니 스커트 (화이트)", 11320, "6629626563","15108568332","92003182581", "ep1_p1_1b.jpg", true),
         P("수스다 왕리본 새틴 머리핀", 3990, "7219802962","18292554862","85438221385", "ep1_p1_3.jpg", false),
         P("삭스핑 순면 자수 리본 중목 양말 4켤레", 9980, "9569061567","28559875483","95504481137", "ep1_p1_4.jpg", true),
         P("UPPERCUT 리본 밴딩 발레코어 스니커즈", 16900, "9309403316","28592651236","95536506922", "ep1_p1_5.jpg", true)
       ]},
-      { name: "걸리시 데님 코디", imgs: IMGS[2], items: [
+      { name: "걸리시 데님 코디", imgs: [IMGS[2][0]], items: [
         P("cammello 콩단추 벌룬 셔링 리본 블라우스", 19500, "9416670326","27983185520","94940922620", "ep1_p2_1.jpg", true),
         P("구디프 큐트 데님 미니 스커트", 17670, "7246420112","18423041484","86317619889", "ep1_p2_2.jpg", true),
         P("슈즈앤 메리제인 미들 굽 펌프스", 15110, "344545583","1094463775","5613043610", "ep1_p2_3.jpg", true),
         P("콜콜러브 하트 포치 숄더백", 14900, "9419139646","27992238029","95005789791", "ep1_p2_4.jpg", true),
         P("수스다 페어리 리본 진주 집게핀", 3990, "7279087701","18580591312","85717246022", "ep1_p2_5.jpg", false, true)
       ]},
-      { name: "다크 로맨틱 코디", imgs: IMGS[3], items: [
+      { name: "다크 로맨틱 코디", imgs: [IMGS[3][0]], items: [
         P("PU 가죽 라이더 숏 재킷 F80131", 25800, "8298261201","25157082472","90958102326", "ep1_p3_1.jpg", true),
         P("위드후이린 뒷리본 슬림 퍼프 긴팔 블라우스", 15900, "9449316676","28109550674","95065566407", "ep1_p3_2.jpg", true),
         P("라라온 순면 캉캉 미니스커트", 15100, "7970251699","22071288450","89118370452", "ep1_p3_3.jpg", true),
@@ -183,14 +183,14 @@ const EPISODES = [
         P("진주 초커 목걸이 블랙 리본", 9900, "9769912619","29243116045","96161530159", "ep1_p3_5b.jpg", true),
         P("거와스 대형 블랙 리본 집게핀", 7740, "7523365693","19736688919","93300384795", "ep1_p3_6.jpg", true)
       ]},
-      { name: "하트 로맨틱 코디", imgs: IMGS[4], items: [
+      { name: "하트 로맨틱 코디", imgs: [IMGS[4][0]], items: [
         P("ZIVIA 하트 버튼 니트 가디건", 16800, "9165863953","27005538365","93970930037", "ep1_p4_1.jpg", false, true),
         P("제이로그 프릴 퍼프 버튼 블라우스", 14900, "9437985652","28068456753","95025098123", "ep1_p4_2.jpg", true),
         P("펀칭 플라워 레이스 레이어드 미니 스커트", 15700, "8611013813","24975575332","91981093369", "ep1_p4_3.jpg", true),
         P("타니즈 올린 더블 스트랩 메리제인 플랫", 16900, "8863441253","25848364927","92835285860", "ep1_p4_4.jpg", true),
         P("진주 장식 미니 스카프 쁘띠 목걸이", 10800, "8357486882","24150011236","92620732660", "ep1_p4_5.jpg", false, true)
       ]},
-      { name: "올리브 유틸리티 코디", imgs: IMGS[5], items: [
+      { name: "올리브 유틸리티 코디", imgs: [IMGS[5][0]], items: [
         P("아피나르 허리 스트링 후드 바람막이 점퍼", 26900, "7813674294","21202585065","88263849296", "ep1_p5_1.jpg", true),
         P("메이킹유 펀칭 레이스 캉캉 원피스", 25900, "8715665087","25313761403","92458074084", "ep1_p5_2.jpg", true),
         P("POMTOR 통굽 8.5cm 롱 부츠", 38270, "9000382528","26383844454","93837604710", "ep1_p5_3.jpg", true)
@@ -201,31 +201,31 @@ const EPISODES = [
     tab: "EP002",
     pov: "가을 날씨 가장 이뻐 보일 때",
     looks: [
-      { name: "클래식 트렌치 코디", imgs: ["ep2s_l1_1.jpg","ep2s_l1_2f.jpg","ep2s_l1_3.jpg"], items: [
+      { name: "클래식 트렌치 코디", imgs: ["ep2s_l1_1.jpg"], items: [
         P("ZIVIA 여성 봄가을 롱 트렌치코트", 31550, "9705923242","29037239908","95964538245", "ep2_p1_1.jpg", true),
         P("YEON HOME 골지 브이넥 긴팔 니트", 17500, "8387887064","24244454131","91261443527", "ep2_p1_2.jpg", true),
         P("린다샵 체르나 체크 플리츠 미니 스커트", 10050, "6036978818","11025245483","78304829905", "ep2_p1_3.jpg", true),
         P("착한구두 샌더슨 페니 레더 로퍼", 34560, "6868009336","16420793385","83611697468", "ep2_p1_4.jpg", true)
       ]},
-      { name: "프렌치 걸리시 코디", imgs: ["ep2s_l2_1.jpg","ep2s_l2_2f.jpg","ep2s_l2_3.jpg"], items: [
+      { name: "프렌치 걸리시 코디", imgs: ["ep2s_l2_1.jpg"], items: [
         P("플랜와이 라운드넥 베이직 니트 가디건", 15670, "9037002777","26511939609","96076023391", "ep2_p2_1.jpg", true),
         P("양놀 쉬폰 V넥 타이 긴팔 블라우스", 23060, "7173524848","24997935273","92003133553", "ep2_p2_2.jpg", true),
         P("이푼아이 하운드투스 잔체크 H라인 미니 스커트", 22900, "8388133443","24245282976","91262261240", "ep2_p2_3.jpg", true),
         P("타니즈 메데스 리본 메리제인 로퍼", 16900, "9595583176","28644875752","95588335668", "ep2_p2_4.jpg", true)
       ]},
-      { name: "청청 캐주얼 코디", imgs: ["ep2s_l3_1.jpg","ep2s_l3_2f.jpg","ep2s_l3_3.jpg"], items: [
+      { name: "청청 캐주얼 코디", imgs: ["ep2s_l3_1.jpg"], items: [
         P("밍키비 빈티지 연청 크롭 데님 자켓", 13320, "6148982292","11854933258","79148902025", "ep2_p3_1.jpg", true),
         P("베이직하우스 프리미엄 코튼 크롭 반팔 티셔츠", 9900, "7276574949","18569317477","85706517483", "ep2_p3_2.jpg", true),
         P("엘블로썸 H라인 스판 데님 스커트", 17200, "6540982046","14563217507","81805477107", "ep2_p3_3.jpg", true),
         P("홀리버니 데일리 스니커즈", 15900, "6074019864","11226825748","86635744663", "ep2_p3_4.jpg", true)
       ]},
-      { name: "브라운 레더 코디", imgs: ["ep2s_l4_1.jpg","ep2s_l4_2f.jpg","ep2s_l4_3.jpg"], items: [
+      { name: "브라운 레더 코디", imgs: ["ep2s_l4_1.jpg"], items: [
         P("네모엔룩 하이넥 레더 블루종 자켓", 38900, "9034440469","26502627172","93477352052", "ep2_p4_1.jpg", true),
         P("베이뮤 니트 터틀넥 목폴라", 17700, "9243526747","27335176700","89821410709", "ep2_p4_2.jpg", true),
         P("이푼아이 플레어 스판 A라인 미니 스커트", 25900, "7610297398","20153884897","87246762745", "ep2_p4_3.jpg", true),
         P("모넬로 통굽 첼시 롱부츠", 39900, "6976253068","17028676257","93525256104", "ep2_p4_4.jpg", true)
       ]},
-      { name: "플로럴 원피스 코디", imgs: ["ep2s_l5_1.jpg","ep2s_l5_2f.jpg","ep2s_l5_3.jpg"], items: [
+      { name: "플로럴 원피스 코디", imgs: ["ep2s_l5_1.jpg"], items: [
         P("ZAJA 쉬폰 롱원피스 꽃무늬", 33470, "9690642354","28982761091","95925239259", "ep2_p5_1.jpg", true),
         P("럽스 래이 루즈핏 브이넥 니트조끼", 20150, "294181143","2256073177","75876222328", "ep2_p5_2.jpg", true),
         P("소리달 디포네 데일리 숄더 토드백", 19000, "6617073518","15029108872","82251736044", "ep2_p5_3.jpg", true),
@@ -237,32 +237,32 @@ const EPISODES = [
     tab: "EP003",
     pov: "해 질 녘 바다 앞에 혼자 서 있을 때",
     looks: [
-      { name: "브라운 클래식 코디", imgs: ["ep3s_l1_1.jpg","ep3s_l1_2b.jpg","ep3s_l1_3.jpg"], items: [
+      { name: "브라운 클래식 코디", imgs: ["ep3s_l1_1.jpg"], items: [
         P("화이트 랩 니트 톱", 21960, "9736542835","29138978370","96062663082", "ep3_p1_1.jpg", true),
         P("브라운 코듀로이 벨티드 미니스커트", 24900, "9070017087","26636233242","93608986171", "ep3_p1_2.jpg", true),
         P("다크브라운 웨스턴 롱부츠", 20330, "9693291381","28992181372","95920898209", "ep3_p1_3.jpg", true),
         P("브라운 스웨이드 호보백", 24750, "9312337431","27594793458","96069812727", "ep3_p1_4.jpg", true)
       ]},
-      { name: "새틴 스커트 코디", imgs: ["ep3s_l2_1.jpg","ep3s_l2_2.jpg","ep3s_l2_3.jpg"], items: [
+      { name: "새틴 스커트 코디", imgs: ["ep3s_l2_1.jpg"], items: [
         P("그레이 니트 가디건", 15700, "9671660466","28917748890","95849469222", "ep3_p2_1.jpg", true),
         P("그레이 슬림 캐미솔", 8900, "9414310088","27973849557","94934344397", "ep3_p2_2.jpg", true),
         P("샴페인 새틴 레이스 슬릿 스커트", 23280, "9523467354","28392517981","95385217407", "ep3_p2_3.jpg", true),
         P("블랙 리본 발레리나 플랫", 19500, "9449193175","28109119869","95065137912", "ep3_p2_4.jpg", true)
       ]},
-      { name: "발레코어 코디", imgs: ["ep3s_l3_1.jpg","ep3s_l3_2.jpg","ep3s_l3_3.jpg"], items: [
+      { name: "발레코어 코디", imgs: ["ep3s_l3_1.jpg"], items: [
         P("화이트 레이스 타이 블라우스", 42880, "9770494560","29244703478","96163044474", "ep3_p3_1.jpg", true),
         P("화이트 티어드 프릴 미니스커트", 17600, "7956690144","21984420876","89032012569", "ep3_p3_2.jpg", true),
         P("화이트 니삭스", 9900, "9263369868","27410439766","94376063849", "ep3_p3_3.jpg", true),
         P("핑크 벨벳 메리제인", 28500, "8284345251","23886275470","90957795217", "ep3_p3_4.jpg", true)
       ]},
-      { name: "트위드 재킷 코디", imgs: ["ep3s_l4_1.jpg","ep3s_l4_2.jpg","ep3s_l4_3.jpg"], items: [
+      { name: "트위드 재킷 코디", imgs: ["ep3s_l4_1.jpg"], items: [
         P("블랙 트위드 재킷", 17010, "8415267453","24334936605","91350502674", "ep3_p4_1.jpg", true),
         P("크림 캐미 탑", 8900, "6572072687","14756406002","81996726159", "ep3_p4_2.jpg", true),
         P("화이트 프릴 레이어드 미니스커트", 17900, "9371768520","27815840764","94775616438", "ep3_p4_3.jpg", true),
         P("카멜 스웨이드 웨스턴 롱부츠", 32900, "8423151463","24451043573","91464876586", "ep3_p4_4.jpg", true),
         P("블랙 퀼팅 체인 숄더백", 21250, "9683996892","28959263073","95889499954", "ep3_p4_5.jpg", true)
       ]},
-      { name: "노란 니트 코디", imgs: ["ep3s_l5_1.jpg","ep3s_l5_2.jpg","ep3s_l5_3.jpg"], items: [
+      { name: "노란 니트 코디", imgs: ["ep3s_l5_1.jpg"], items: [
         P("옐로 케이블 V넥 니트", 26800, "9705934038","29037276899","95964572917", "ep3_p5_1.jpg", true),
         P("화이트 벌룬 미니스커트", 15000, "9339627540","27697074371","94658828344", "ep3_p5_2.jpg", true),
         P("베이지 슬라우치 롱부츠", 39800, "9735540094","29135237698","96059064725", "ep3_p5_3.jpg", true)
@@ -273,28 +273,28 @@ const EPISODES = [
     tab: "EP004",
     pov: "가을 가기 전에 인생샷 건져야 할 때",
     looks: [
-      { name: "보라 니트 코디", imgs: ["ep4s_l1_1.jpg","ep4s_l1_2.jpg","ep4s_l1_3.jpg"], items: [
+      { name: "보라 니트 코디", imgs: ["ep4s_l1_1.jpg"], items: [
         P("보라 꽈배기 크롭 니트", 18100, "7635144862","20272760679","87359755483", "ep4_p1_1.jpg", true),
         P("슬림스판 블랙 미니스커트", 9200, "7689388170","20559040486","93235167770", "ep4_p1_2.jpg", true),
         P("레이스업 통굽 롱부츠", 20920, "9727555034","29109746532","96034530618", "ep4_p1_3.jpg", true)
       ]},
-      { name: "가죽 재킷 코디", imgs: ["ep4s_l2_1.jpg","ep4s_l2_2.jpg","ep4s_l2_3.jpg"], items: [
+      { name: "가죽 재킷 코디", imgs: ["ep4s_l2_1.jpg"], items: [
         P("차이나넥 크롭 레더 자켓", 24000, "9366772787","27796177207","94756319737", "ep4_p2_1.jpg", true),
         P("U넥 슬림핏 화이트 티셔츠", 7800, "8953120363","26190436097","93169823495", "ep4_p2_2.jpg", true),
         P("그레이 플리츠 미니스커트", 15740, "9302927485","27559821444","94523883535", "ep4_p2_3.jpg", true),
         P("스판 니하이 롱부츠", 39900, "9183352823","27085754392","94465290207", "ep4_p2_4.jpg", true)
       ]},
-      { name: "네이비 셔츠원피스 코디", imgs: ["ep4s_l3_1.jpg","ep4s_l3_2.jpg","ep4s_l3_3.jpg"], items: [
+      { name: "네이비 셔츠원피스 코디", imgs: ["ep4s_l3_1.jpg"], items: [
         P("네이비 카라 셔츠 미니 원피스(벨트 세트)", 12710, "7930084076","21809459190","88857966882", "ep4_p3_1.jpg", true),
         P("러블리 청키 메리제인 슈즈", 42900, "9754936339","29207842928","96127861866", "ep4_p3_2.jpg", true),
         P("화이트 중목 양말", 9660, "8755066801","25452859109","86662807454", "ep4_p3_3.jpg", true)
       ]},
-      { name: "베이지 트렌치 코디", imgs: ["ep4s_l4_1.jpg","ep4s_l4_2.jpg","ep4s_l4_3.jpg"], items: [
+      { name: "베이지 트렌치 코디", imgs: ["ep4s_l4_1.jpg"], items: [
         P("베이지 벨티드 롱 트렌치코트", 47570, "7809906965","21180689717","88242108376", "ep4_p4_1.jpg", true),
         P("블랙 골지 터틀넥 니트", 20900, "9764246902","29223937240","96143462815", "ep4_p4_2.jpg", true),
         P("브라운 롱부츠", 20330, "9693291381","28992181372","95920898209", "ep4_p4_3.jpg", true)
       ]},
-      { name: "물방울 원피스 코디", imgs: ["ep4s_l5_1.jpg","ep4s_l5_2.jpg","ep4s_l5_3.jpg"], items: [
+      { name: "물방울 원피스 코디", imgs: ["ep4s_l5_1.jpg"], items: [
         P("블랙 도트 V넥 미니원피스", 20200, "9706023876","29037570380","95964848688", "ep4_p5_1.jpg", true),
         P("러블리 청키 메리제인 슈즈", 42900, "9754936339","29207842928","96127861866", "ep4_p5_2.jpg", true)
       ]}
@@ -304,26 +304,26 @@ const EPISODES = [
     tab: "EP005",
     pov: "옷장 앞에서 한 시간 고민하다 이 코디로 정함",
     looks: [
-      { name: "카멜 하프코트 코디", imgs: ["ep5s_l1_1.jpg","ep5s_l1_2.jpg","ep5s_l1_3.jpg"], items: [
+      { name: "카멜 하프코트 코디", imgs: ["ep5s_l1_1.jpg"], items: [
         P("하이넥 벨트 하프 모직 코트", 39500, "9779933479","29278586559","96195311236", "ep5_p1_0.jpg", true),
         P("슬림핏 라운드넥 이너 긴팔 티셔츠", 9610, "9174439520","27043977091","94012413021", "ep5_p1_1.jpg", true),
         P("일자 와이드 데님 팬츠", 28900, "8606839174","24960465891","91966215348", "ep5_p1_2.jpg", true),
         P("스퀘어코 통굽 청키힐 로퍼", 39900, "7856039319","21425818521","91021719391", "ep5_p1_3.jpg", true)
       ]},
-      { name: "레더 재킷 코디", imgs: ["ep5s_l2_1.jpg","ep5s_l2_2.jpg","ep5s_l2_3.jpg"], items: [
+      { name: "레더 재킷 코디", imgs: ["ep5s_l2_1.jpg"], items: [
         P("페이크레더 크롭 라이더 자켓", 19800, "7563062886","19929716691","87029283719", "ep5_p2_1.jpg", true),
         P("슬림 라운드넥 반팔 티셔츠", 10800, "8723437347","25340902384","92515479039", "ep5_p2_2.jpg", true),
         P("일자핏 팬츠", 13800, "7910721348","23980109638","91001293914", "ep5_p2_3.jpg", true),
         P("스퀘어 통굽 롱부츠", 31900, "7655849401","20382510946","91386951959", "ep5_p2_4.jpg", true)
       ]},
-      { name: "그레이 블레이저 코디", imgs: ["ep5s_l3_1.jpg","ep5s_l3_2.jpg","ep5s_l3_3.jpg"], items: [
+      { name: "그레이 블레이저 코디", imgs: ["ep5s_l3_1.jpg"], items: [
         P("더블 원버튼 자켓", 44800, "8323410071","26580838304","93554247977", "ep5_p3_1.jpg", true),
         P("심플 플리츠 스커트", 18360, "9129046789","26859645504","93829341117", "ep5_p3_2.jpg", true)
       ]},
-      { name: "와인 니트 원피스 코디", imgs: ["ep5s_l4_1.jpg","ep5s_l4_2.jpg","ep5s_l4_3.jpg"], items: [
+      { name: "와인 니트 원피스 코디", imgs: ["ep5s_l4_1.jpg"], items: [
         P("슬림 골지 브이넥 니트원피스", 21510, "8552726718","4083869763","93170933263", "ep5_p4_1.jpg", true)
       ]},
-      { name: "셔츠 플리츠 코디", imgs: ["ep5s_l5_1.jpg","ep5s_l5_2.jpg","ep5s_l5_3.jpg"], items: [
+      { name: "셔츠 플리츠 코디", imgs: ["ep5s_l5_1.jpg"], items: [
         P("오버핏 롱셔츠 블라우스", 15900, "7910205840","21702609963","91954556644", "ep5_p5_1.jpg", true),
         P("네이비 하이웨스트 플리츠 미니스커트", 15740, "9302927485","27559821477","94523883524", "ep5_p5_2.jpg", true)
       ]}
@@ -333,25 +333,25 @@ const EPISODES = [
     tab: "EP006",
     pov: "낙엽 길만 걸어도 화보 되는 가을 코디",
     looks: [
-      { name: "러스트 코듀로이 코디", imgs: ["ep6s_l1_1.jpg","ep6s_l1_2.jpg","ep6s_l1_3.jpg"], items: [
+      { name: "러스트 코듀로이 코디", imgs: ["ep6s_l1_1.jpg"], items: [
         P("코듀로이 크롭 포켓 자켓", 31900, "9152197200","26949792027","93918873343", "ep6_p1_1.jpg", true),
         P("심플 플리츠 스커트", 18360, "9129046789","26859645504","93829341117", "ep6_p1_2.jpg", true),
         P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p1_3.jpg", true)
       ]},
-      { name: "올리브 트렌치 코디", imgs: ["ep6s_l2_1.jpg","ep6s_l2_2.jpg","ep6s_l2_3.jpg"], items: [
+      { name: "올리브 트렌치 코디", imgs: ["ep6s_l2_1.jpg"], items: [
         P("더블 벨티드 롱 트렌치 코트", 54700, "8349404281","26818905215","93789109694", "ep6_p2_1.jpg", true),
         P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p2_2.jpg", true)
       ]},
-      { name: "버건디 가디건 코디", imgs: ["ep6s_l3_1.jpg","ep6s_l3_2.jpg","ep6s_l3_3.jpg"], items: [
+      { name: "버건디 가디건 코디", imgs: ["ep6s_l3_1.jpg"], items: [
         P("브이넥 소프트 니트 가디건", 19800, "9701022570","29019791933","95947538909", "ep6_p3_1.jpg", true),
         P("캐주얼 플리츠 스커트", 15740, "9302927485","27559821414","94523883504", "ep6_p3_2.jpg", true),
         P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p3_3.jpg", true)
       ]},
-      { name: "레드 체크 원피스 코디", imgs: ["ep6s_l4_1.jpg","ep6s_l4_2.jpg","ep6s_l4_3.jpg"], items: [
+      { name: "레드 체크 원피스 코디", imgs: ["ep6s_l4_1.jpg"], items: [
         P("빈티지 체크 셔츠 미니 원피스", 40110, "9264905410","27416094712","94381663249", "ep6_p4_1.jpg", true),
         P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p4_2.jpg", true)
       ]},
-      { name: "그린 니트 코디", imgs: ["ep6s_l5_1.jpg","ep6s_l5_2.jpg","ep6s_l5_3.jpg"], items: [
+      { name: "그린 니트 코디", imgs: ["ep6s_l5_1.jpg"], items: [
         P("라운드 데일리 니트", 14480, "8952726300","26188951599","93168370284", "ep6_p5_1.jpg", true),
         P("H라인 데님 미니스커트", 20900, "9771570132","29248838436","96167036793", "ep6_p5_2.jpg", true),
         P("통굽 슬림핏 하이부츠", 30400, "9304854568","27566493290","94530502046", "ep6_p5_3.jpg", true)
@@ -362,25 +362,25 @@ const EPISODES = [
     tab: "EP007",
     pov: "겨울 오기 전에 호수 가야 하는 인생 코디",
     looks: [
-      { name: "블랙 숏 패딩 코디", imgs: ["ep7s_l1_1.jpg","ep7s_l1_2.jpg","ep7s_l1_3.jpg"], items: [
+      { name: "블랙 숏 패딩 코디", imgs: ["ep7s_l1_1.jpg"], items: [
         P("베이직 숏 패딩 점퍼", 19500, "9099623568","26748846509","93741502462", "ep7_p1_1.jpg", true),
         P("캐주얼 플리츠 스커트(그레이)", 15740, "9302927485","27559821444","94523883535", "ep7_p1_2.jpg", true),
         P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p1_3.jpg", true)
       ]},
-      { name: "퍼 칼라 랩코트 코디", imgs: ["ep7s_l2_1.jpg","ep7s_l2_2.jpg","ep7s_l2_3.jpg"], items: [
+      { name: "퍼 칼라 랩코트 코디", imgs: ["ep7s_l2_1.jpg"], items: [
         P("퍼트리밍 벨트 하프코트", 42600, "9776920466","29268063828","96185423157", "ep7_p2_1.jpg", true),
         P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p2_2.jpg", true)
       ]},
-      { name: "그레이 터틀 원피스 코디", imgs: ["ep7s_l3_1.jpg","ep7s_l3_2.jpg","ep7s_l3_3.jpg"], items: [
+      { name: "그레이 터틀 원피스 코디", imgs: ["ep7s_l3_1.jpg"], items: [
         P("터틀넥 셔링 원피스", 16900, "9328317762","27653994076","94921926484", "ep7_p3_1.jpg", true),
         P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p3_2.jpg", true)
       ]},
-      { name: "베이지 니트 코디", imgs: ["ep7s_l4_1.jpg","ep7s_l4_2.jpg","ep7s_l4_3.jpg"], items: [
+      { name: "베이지 니트 코디", imgs: ["ep7s_l4_1.jpg"], items: [
         P("울 랩 스타일 롱 코트", 104000, "9766562679","29231813844","96150843852", "ep7_p4_1.jpg", true),
         P("오프넥 니트 슬림 원피스(베이지)", 27180, "8971720618","26258122341","93236485994", "ep7_p4_2.jpg", true),
         P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p4_3.jpg", true)
       ]},
-      { name: "핑크 가디건 코디", imgs: ["ep7s_l5_1.jpg","ep7s_l5_2.jpg","ep7s_l5_3.jpg"], items: [
+      { name: "핑크 가디건 코디", imgs: ["ep7s_l5_1.jpg"], items: [
         P("보송 폭닥 라운드넥 니트 가디건", 18900, "8657689478","25127789895","92175125368", "ep7_p5_1.jpg", true),
         P("니트 플레어 스커트", 27000, "7579095839","20003432455","87068071716", "ep7_p5_2.jpg", true),
         P("니하이 스판 롱부츠", 52100, "8287892182","23900321428","90922874022", "ep7_p5_3.jpg", true)
@@ -391,25 +391,25 @@ const EPISODES = [
     tab: "EP008",
     pov: "비 그치면 입으려고 아껴둔 코디 꺼냄",
     looks: [
-      { name: "네이비 더블 코트 코디", imgs: ["ep8s_l1_1.jpg","ep8s_l1_2.jpg","ep8s_l1_3.jpg"], items: [
+      { name: "네이비 더블 코트 코디", imgs: ["ep8s_l1_1.jpg"], items: [
         P("네이비 벨트 롱 트렌치 코트", 47820, "9341863308","27705898884","94667521835", "ep8_p1_1.jpg", true),
         P("그레이 라운드넥 니트 티셔츠", 13140, "8891334198","25956469714","92939264257", "ep8_p1_2.jpg", true),
         P("블랙 플리츠 스커트", 18360, "9129046789","26859645509","93829341114", "ep8_p1_3.jpg", true),
         P("블랙 롱부츠", 41540, "8422865063","24679299661","92194371971", "ep8_p1_4.jpg", true)
       ]},
-      { name: "블랙 리브 니트 원피스 코디", imgs: ["ep8s_l2_1.jpg","ep8s_l2_2.jpg","ep8s_l2_3.jpg"], items: [
+      { name: "블랙 리브 니트 원피스 코디", imgs: ["ep8s_l2_1.jpg"], items: [
         P("블랙 브이넥 니트 롱 원피스", 34200, "7802103536","21133080630","88187119087", "ep8_p2_1.jpg", true),
         P("블랙 롱부츠", 41540, "8422865063","24679299661","92194371971", "ep8_p2_2.jpg", true)
       ]},
-      { name: "아이보리 니트 세트 코디", imgs: ["ep8s_l3_1.jpg","ep8s_l3_2.jpg","ep8s_l3_3.jpg"], items: [
+      { name: "아이보리 니트 세트 코디", imgs: ["ep8s_l3_1.jpg"], items: [
         P("아이보리 니트 원피스 가디건 세트", 35820, "9472433110","28195372884","95149776278", "ep8_p3_1.jpg", true),
         P("베이지 삭스 롱부츠", 52200, "6696891375","15496862015","82716200430", "ep8_p3_2.jpg", true)
       ]},
-      { name: "라이트블루 트위드 코디", imgs: ["ep8s_l4_1.jpg","ep8s_l4_2.jpg","ep8s_l4_3.jpg"], items: [
+      { name: "라이트블루 트위드 코디", imgs: ["ep8s_l4_1.jpg"], items: [
         P("라이트블루 트위드 자켓 스커트 세트", 39970, "9391294222","27888906485","94847897071", "ep8_p4_1.jpg", true),
         P("블랙 롱부츠", 41540, "8422865063","24679299661","92194371971", "ep8_p4_2.jpg", true)
       ]},
-      { name: "브라운 스웨이드 재킷 코디", imgs: ["ep8s_l5_1.jpg","ep8s_l5_2.jpg","ep8s_l5_3.jpg"], items: [
+      { name: "브라운 스웨이드 재킷 코디", imgs: ["ep8s_l5_1.jpg"], items: [
         P("브라운 스웨이드 자켓", 34900, "9076944625","26662196447","93634579792", "ep8_p5_1.jpg", true),
         P("베이지 골지 니트 티셔츠", 24900, "7967516887","22052595976","89099854456", "ep8_p5_2.jpg", true),
         P("블랙 플리츠 스커트", 18360, "9129046789","26859645509","93829341114", "ep8_p5_3.jpg", true),
@@ -504,34 +504,34 @@ const EPISODES = [
     tab: "EP011",
     pov: "전남친도 오는 결혼식, 인생 하객룩 찾아냄",
     looks: [
-      { name: "시스루 리본 블라우스 하객룩", imgs: ["ep11s_l1_1.jpg","ep11u_l1_2.jpg","ep11u_l1_3.jpg"], items: [
+      { name: "시스루 리본 블라우스 하객룩", imgs: ["ep11s_l1_1.jpg"], items: [
         {name:"블랙 퍼프소매 리본 블라우스", price:23780, ok:true, hide:false, url:"https://link.coupang.com/a/igrVuMy7Oe", img:"ep11s2_sheer_ribbon.jpg"},
         {name:"와인 끈나시 이너", price:14800, ok:true, hide:false, url:"https://link.coupang.com/a/igmHDAySOG", img:"ep11v2_burg_cami.jpg"},
         {name:"그레이 미디 플리츠 스커트", price:16400, ok:true, hide:false, url:"https://link.coupang.com/a/igmIewjghE", img:"ep11v2_gray_pleat.jpg"},
         {name:"블랙 메리제인 플랫슈즈", price:19520, ok:true, hide:false, url:"https://link.coupang.com/a/igsb3ZONiK", img:"ep11s2_mary_jane.jpg"},
         {name:"진주 목걸이", price:5400, ok:true, hide:false, url:"https://link.coupang.com/a/igmIPyKQxg", img:"ep11v2_pearl_nk.jpg"}
       ]},
-      { name: "네이비 트위드 자켓 하객룩", imgs: ["ep11s_l2_1.jpg","ep11u_l2_2.jpg","ep11u_l2_3.jpg"], items: [
+      { name: "네이비 트위드 자켓 하객룩", imgs: ["ep11s_l2_1.jpg"], items: [
         {name:"네이비 트위드 노카라 자켓", price:29900, ok:true, hide:false, url:"https://link.coupang.com/a/igmKtEjn4e", img:"ep11v2_navy_tweed.jpg"},
         {name:"그레이 골지 니트 이너", price:13900, ok:true, hide:false, url:"https://link.coupang.com/a/igmK4wP1Do", img:"ep11v2_gray_knit.jpg"},
         {name:"다크그레이 티어드 니트 스커트", price:41200, ok:true, hide:false, url:"https://link.coupang.com/a/igmLFzL6bs", img:"ep11v2_char_tiered.jpg"},
         {name:"블랙 퀼팅 체인 숄더백", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/igrQ4B6bPU", img:"ep11s2_chain_bag.jpg"},
         {name:"블랙 페니 로퍼", price:29700, ok:true, hide:false, url:"https://link.coupang.com/a/h866f6wnuK", img:"ep11n_blk_loafer.jpg"}
       ]},
-      { name: "러스트 프릴 블라우스 하객룩", imgs: ["ep11s_l3_1.jpg","ep11u_l3_2.jpg","ep11u_l3_3.jpg"], items: [
+      { name: "러스트 프릴 블라우스 하객룩", imgs: ["ep11s_l3_1.jpg"], items: [
         {name:"러스트 브라운 프릴 카라 블라우스", price:18800, ok:true, hide:false, url:"https://link.coupang.com/a/igmNX27KMu", img:"ep11v2_burg_frill.jpg"},
         {name:"브라운 플리츠 롱스커트", price:20710, ok:true, hide:false, url:"https://link.coupang.com/a/igrRFr3qmG", img:"ep11s2_brown_pleat.jpg"},
         {name:"와인 벨벳 리본 헤어핀", price:9900, ok:true, hide:false, url:"https://link.coupang.com/a/igrSgmliBU", img:"ep11s2_ribbon_pin.jpg"},
         {name:"블랙 메리제인 플랫슈즈", price:19520, ok:true, hide:false, url:"https://link.coupang.com/a/igsb3ZONiK", img:"ep11s2_mary_jane.jpg"}
       ]},
-      { name: "딥퍼플 니트 원피스 하객룩", imgs: ["ep11s_l4_1.jpg","ep11u_l4_2.jpg","ep11u_l4_3.jpg"], items: [
+      { name: "딥퍼플 니트 원피스 하객룩", imgs: ["ep11s_l4_1.jpg"], items: [
         {name:"딥퍼플 니트 롱원피스", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/h83fQkLyk8", img:"ep11n_purple_dress.jpg"},
         {name:"블랙 시스루 크롭 볼레로", price:9900, ok:true, hide:false, url:"https://link.coupang.com/a/igmPKFZw8i", img:"ep11v2_sheer_bolero.jpg"},
         {name:"블랙 가죽 클러치", price:11900, ok:true, hide:false, url:"https://link.coupang.com/a/igmRYOGiOW", img:"ep11v2_clutch.jpg"},
         {name:"진주 귀걸이", price:10520, ok:true, hide:false, url:"https://link.coupang.com/a/igmRnX6lAP", img:"ep11v2_pearl_ear.jpg"},
         {name:"블랙 메리제인 플랫슈즈", price:19520, ok:true, hide:false, url:"https://link.coupang.com/a/igsb3ZONiK", img:"ep11s2_mary_jane.jpg"}
       ]},
-      { name: "그레이 울 셋업 하객룩", imgs: ["ep11s_l5_1.jpg","ep11u_l5_2.jpg","ep11u_l5_3.jpg"], items: [
+      { name: "그레이 울 셋업 하객룩", imgs: ["ep11s_l5_1.jpg"], items: [
         {name:"그레이 울 더블 셋업", price:53460, ok:true, hide:false, url:"https://link.coupang.com/a/h83gr8hGeG", img:"ep11n_check_set.jpg"},
         {name:"블랙 레이스 캐미 이너", price:10400, ok:true, hide:false, url:"https://link.coupang.com/a/igmSzHY1OC", img:"ep11v2_lace_cami.jpg"},
         {name:"블랙 가죽 클러치", price:11900, ok:true, hide:false, url:"https://link.coupang.com/a/igmRYOGiOW", img:"ep11v2_clutch.jpg"},
@@ -543,29 +543,29 @@ const EPISODES = [
     tab: "EP012",
     pov: "소개팅 1트에 고백 받는 가을 코디 찾아냄",
     looks: [
-      { name: "걸리시 소개팅 룩", imgs: ["ep12s_l1_1.jpg","ep12u_l1_2.jpg","ep12u_l1_3.jpg"], items: [
+      { name: "걸리시 소개팅 룩", imgs: ["ep12s_l1_1.jpg"], items: [
         {name:"아이보리 오프숄더 루즈핏 니트", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/im0E4WDNSK", img:"ep12_L1_00.jpg"},
         {name:"화이트 레이스 캉캉 밴딩 미니스커트", price:14800, ok:true, hide:false, url:"https://link.coupang.com/a/im0FXJZZLg", img:"ep12_L1_01.jpg"},
         {name:"베이지 웨지굽 슬라우치 니하이부츠", price:64200, ok:true, hide:false, url:"https://link.coupang.com/a/im0GMzRqMu", img:"ep12_L1_02.jpg"},
         {name:"버건디 가죽 토트 숄더백", price:26970, ok:true, hide:false, url:"https://link.coupang.com/a/im0HAuqkPQ", img:"ep12_L1_03.jpg"}
       ]},
-      { name: "프레피 시크 룩", imgs: ["ep12s_l2_1.jpg","ep12u_l2_2.jpg","ep12u_l2_3.jpg"], items: [
+      { name: "프레피 시크 룩", imgs: ["ep12s_l2_1.jpg"], items: [
         {name:"버건디 라운드넥 니트", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/im0Jn04Rpt", img:"ep12_L2_04.jpg"},
         {name:"화이트 쉬폰 롱스카프", price:9900, ok:true, hide:false, url:"https://link.coupang.com/a/im0Ym2wq6e", img:"ep12_L2_05.jpg"},
         {name:"화이트 캉캉 플레어 미니스커트", price:13000, ok:true, hide:false, url:"https://link.coupang.com/a/im1adJbNYa", img:"ep12_L2_06.jpg"}
       ]},
-      { name: "걸리시 고프코어 룩", imgs: ["ep12s_l3_1.jpg","ep12u_l3_2.jpg","ep12u_l3_3.jpg"], items: [
+      { name: "걸리시 고프코어 룩", imgs: ["ep12s_l3_1.jpg"], items: [
         {name:"카키 크롭 후드집업", price:38480, ok:true, hide:false, url:"https://link.coupang.com/a/im0LO8jYZM", img:"ep12_L3_07.jpg"},
         {name:"화이트 2단 프릴 레이어드 나시", price:15980, ok:true, hide:false, url:"https://link.coupang.com/a/im0NRBVg7g", img:"ep12_L3_08.jpg"},
         {name:"브라운 셔링 버클 바이커 롱부츠", price:31900, ok:true, hide:false, url:"https://link.coupang.com/a/im0OG0sdjw", img:"ep12_L3_09.jpg"}
       ]},
-      { name: "락시크 룩", imgs: ["ep12s_l4_1.jpg","ep12u_l4_2.jpg","ep12u_l4_3.jpg"], items: [
+      { name: "락시크 룩", imgs: ["ep12s_l4_1.jpg"], items: [
         {name:"베이지 오프숄더 긴팔 블라우스", price:9600, ok:true, hide:false, url:"https://link.coupang.com/a/im0PvhZxL2", img:"ep12_L4_10.jpg"},
         {name:"브라운 레더 가죽 미니스커트", price:16900, ok:true, hide:false, url:"https://link.coupang.com/a/im1i9hnn5w", img:"ep12_L4_11.jpg"},
         {name:"블랙 버클 청키 미들 바이커 부츠", price:42200, ok:true, hide:false, url:"https://link.coupang.com/a/im0R3EswZF", img:"ep12_L4_12.jpg"},
         {name:"블랙 소가죽 미니 토트백", price:45800, ok:true, hide:false, url:"https://link.coupang.com/a/im0SR3arg4", img:"ep12_L4_13.jpg"}
       ]},
-      { name: "로맨틱 플라워 룩", imgs: ["ep12s_l5_1.jpg","ep12u_l5_2.jpg","ep12u_l5_3.jpg"], items: [
+      { name: "로맨틱 플라워 룩", imgs: ["ep12s_l5_1.jpg"], items: [
         {name:"아이보리 잔골지 립넥 니트", price:15500, ok:true, hide:false, url:"https://link.coupang.com/a/im04BHjboW", img:"ep12_L5_14.jpg"},
         {name:"퍼플 빈티지 플라워 쉬폰 롱스커트", price:29800, ok:true, hide:false, url:"https://link.coupang.com/a/im09ptr8qO", img:"ep12_L5_15.jpg"},
         {name:"아이보리 미니 바게트백", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/im0WbOIRem", img:"ep12_L5_16.jpg"}
@@ -576,33 +576,33 @@ const EPISODES = [
     tab: "EP013",
     pov: "영하 되자마자 장원영핏 겨울 코디 찾아냄",
     looks: [
-      { name: "걸리시 무난 퍼 재킷 룩", imgs: ["ep13s_l1_1.jpg","ep13s_l1_2.jpg","ep13s_l1_3.jpg"], items: [
+      { name: "걸리시 무난 퍼 재킷 룩", imgs: ["ep13s_l1_1.jpg"], items: [
         {name:"라뷰드 루즈핏 페이크 퍼 숏자켓", price:18900, ok:true, hide:false, url:"https://link.coupang.com/a/isx3QWOtie", img:"ep13n_ivory_fur_jkt.jpg"},
         {name:"여성용 코듀로이 플리츠 미니 스커트", price:14890, ok:true, hide:false, url:"https://link.coupang.com/a/isyw5hNd7s", img:"ep13n_blk_pleat_mini.jpg"},
         {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep13n_blk_longboots.jpg"},
         {name:"쓰리마인즈 TRM 리사이클 나일론 미니 로우백 T24W", price:19800, ok:true, hide:false, url:"https://link.coupang.com/a/isxNHSzvFs", img:"ep13n_blk_mini_bag.jpg"}
       ]},
-      { name: "프레피 머플러 룩", imgs: ["ep13s_l2_1.jpg","ep13s_l2_2.jpg","ep13s_l2_3.jpg"], items: [
+      { name: "프레피 머플러 룩", imgs: ["ep13s_l2_1.jpg"], items: [
         {name:"남녀공용 울 100 머플러 양말 세트 여성 남성 목도리 겨울 선물 5컬러", price:17900, ok:true, hide:false, url:"https://link.coupang.com/a/isxOJjVWmG", img:"ep13n_camel_muffler.jpg"},
         {name:"여성용 울코트 크롭 카라 더블 자켓 숏기장 오피스룩", price:47000, ok:true, hide:false, url:"https://link.coupang.com/a/isxPFVmCrc", img:"ep13n_navy_wool_jkt.jpg"},
         {name:"여리진 여성용 포근 따뜻! 니트 스판 목폴라 터틀넥 골지 긴소매 티셔츠", price:13700, ok:true, hide:false, url:"https://link.coupang.com/a/isxQtNxCjk", img:"ep13n_white_knit.jpg"},
         {name:"메이첼 포히 캐주얼 플리츠 스커트 12326", price:15740, ok:true, hide:false, url:"https://link.coupang.com/a/isxRiLMYyi", img:"ep13n_gray_pleat_mini.jpg"},
         {name:"ZIVIA 여성 V컷 롱부츠 가을겨울 중굽 단색 하이부츠 굽 5cm", price:20330, ok:true, hide:false, url:"https://link.coupang.com/a/isxUmLPNhQ", img:"ep13n_brown_longboots.jpg"}
       ]},
-      { name: "걸리시 고프코어 룩", imgs: ["ep13s_l3_1.jpg","ep13s_l3_2.jpg","ep13s_l3_3.jpg"], items: [
+      { name: "걸리시 고프코어 룩", imgs: ["ep13s_l3_1.jpg"], items: [
         {name:"[루엘라]여성 파스텔 글로시 크롭 숏패딩", price:15900, ok:true, hide:false, url:"https://link.coupang.com/a/isxU9Q1iNw", img:"ep13n_cream_crop_padding.jpg"},
         {name:"ELLE PARIS 세미 크롭 베이직 후디", price:15900, ok:true, hide:false, url:"https://link.coupang.com/a/isxVY23TgW", img:"ep13n_gray_hood_crop.jpg"},
         {name:"여성 니트 레그워머 발토시 종아리커버 니트 삭스 무지 TTW001", price:8640, ok:true, hide:false, url:"https://link.coupang.com/a/isxXBa3cnQ", img:"ep13n_white_legwarmer.jpg"},
         {name:"슈레나 여성용 마로 가보시 통굽 키높이 워커 부츠 6cm", price:17140, ok:true, hide:false, url:"https://link.coupang.com/a/isxYo1DICi", img:"ep13n_blk_chunky_boots.jpg"}
       ]},
-      { name: "락시크 룩", imgs: ["ep13s_l4_1.jpg","ep13s_l4_2.jpg","ep13s_l4_3.jpg"], items: [
+      { name: "락시크 룩", imgs: ["ep13s_l4_1.jpg"], items: [
         {name:"구디프 여성용 페이크레더 크롭 라이더 자켓", price:19800, ok:true, hide:false, url:"https://link.coupang.com/a/isxZdBmsw0", img:"ep13n_blk_leather_crop.jpg"},
         {name:"셀루앙드 데일리 끈조절 캡내장 레이스 민소매 나시", price:10500, ok:true, hide:false, url:"https://link.coupang.com/a/isx1nFif2i", img:"ep13n_white_lace_cami.jpg"},
         {name:"여리진 여성용 쫀쫀 스판 슬림 H라인 레더 가죽 미니스커트 빅사이즈까지", price:17900, ok:true, hide:false, url:"https://link.coupang.com/a/isycPAWd3I", img:"ep13n_blk_leather_mini.jpg"},
         {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep13n_blk_longboots.jpg"},
         {name:"마리하우스 체인 크로스 미니 숄더백", price:9800, ok:true, hide:false, url:"https://link.coupang.com/a/isx22PD6nk", img:"ep13n_blk_chain_bag.jpg"}
       ]},
-      { name: "포근 마무리 룩", imgs: ["ep13s_l5_1.jpg","ep13s_l5_2.jpg","ep13s_l5_3.jpg"], items: [
+      { name: "포근 마무리 룩", imgs: ["ep13s_l5_1.jpg"], items: [
         {name:"cammello 브이넥 슬림핏 골지 플레어 미니원피스 긴팔 A라인 드레스 하객룩", price:29200, ok:true, hide:false, url:"https://link.coupang.com/a/isx4IXzZts", img:"ep13n_beige_knit_mini_op.jpg"},
         {name:"라블 통 큰 웨스턴 스타일 스웨이드 롱부츠 미들부츠 시리즈", price:22900, ok:true, hide:false, url:"https://link.coupang.com/a/isx5ybTmZo", img:"ep13n_beige_longboots.jpg"},
         {name:"미니 바게트백 데일리 숄더백 여성 미니가방", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/isx6l2tTdQ", img:"ep13n_white_mini_bag.jpg"}
@@ -613,33 +613,33 @@ const EPISODES = [
     tab: "EP014",
     pov: "송년회에서 전남친 마주쳐도 ㅆㄱㄴ한 연말 코디",
     looks: [
-      { name: "다크 로맨틱 버건디 룩", imgs: ["ep14s_l1_1.jpg","ep14s_l1_2.jpg"], items: [
+      { name: "다크 로맨틱 버건디 룩", imgs: ["ep14s_l1_1.jpg"], items: [
         {name:"버건디 크롭 브이넥 니트 가디건", price:15430, ok:true, hide:false, url:"https://link.coupang.com/a/iu3aVxoV0m", img:"ep14n_burgundy_cardi.jpg"},
         {name:"블랙 레이어드 레이스 나시", price:15900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3bxMnMRM", img:"ep14n_lace_tank.jpg"},
         {name:"여성용 코듀로이 플리츠 미니 스커트", price:14890, ok:true, hide:false, url:"https://link.coupang.com/a/isyw5hNd7s", img:"ep14n_blk_pleat_mini.jpg"},
         {name:"블랙 벨벳 리본 헤어핀", price:8900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3ewFyOES", img:"ep14n_ribbon_pin.jpg"},
         {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep14n_blk_longboots.jpg"}
       ]},
-      { name: "타탄 체크 걸리시 룩", imgs: ["ep14s_l2_1.jpg","ep14s_l2_2.jpg"], items: [
+      { name: "타탄 체크 걸리시 룩", imgs: ["ep14s_l2_1.jpg"], items: [
         {name:"버건디 타탄체크 크롭 셔츠 자켓", price:35100, ok:true, hide:false, url:"https://link.coupang.com/a/iu3veaFnoG", img:"ep14n_tartan_jkt.jpg"},
         {name:"레드 타탄 체크 미니 스커트", price:15800, ok:true, hide:false, url:"https://link.coupang.com/a/iu3fxYmLSK", img:"ep14n_tartan_skirt.jpg"},
         {name:"블랙 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3fWKOWku", img:"ep14n_elle_turtle_blk.jpg"},
         {name:"블랙 레이스업 통굽 워커부츠", price:24900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gtt9r9o", img:"ep14n_boots_sn601.jpg"}
       ]},
-      { name: "코발트 포인트 룩", imgs: ["ep14s_l3_1.jpg","ep14s_l3_2.jpg"], items: [
+      { name: "코발트 포인트 룩", imgs: ["ep14s_l3_1.jpg"], items: [
         {name:"코발트블루 브이넥 니트 가디건", price:18890, ok:true, hide:false, url:"https://link.coupang.com/a/iu3nAuP0F2", img:"ep14n_cobalt_cardi.jpg"},
         {name:"아이보리 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gatQSVo", img:"ep14n_elle_turtle_ivory.jpg"},
         {name:"화이트 하이웨스트 플리츠 미니스커트", price:9350, ok:true, hide:false, url:"https://link.coupang.com/a/iu3CTdDrs4", img:"ep14n_elle_pleat_white.jpg"},
         {name:"블랙 메리제인 통굽 로퍼", price:19900, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gMltFaS", img:"ep14n_maryjane.jpg"},
         {name:"여성 니트 레그워머 발토시 종아리커버 니트 삭스 무지 TTW001", price:8640, ok:true, hide:false, url:"https://link.coupang.com/a/isxXBa3cnQ", img:"ep14n_white_legwarmer.jpg"}
       ]},
-      { name: "와인 벨벳 파티 룩", imgs: ["ep14s_l4_1.jpg","ep14s_l4_2.jpg"], items: [
+      { name: "와인 벨벳 파티 룩", imgs: ["ep14s_l4_1.jpg"], items: [
         {name:"와인 벨벳 미니원피스", price:22910, ok:true, hide:false, url:"https://link.coupang.com/a/iu4AgmuiyW", img:"ep14n_wine_velvet.jpg"},
         {name:"블랙 페이크 퍼 크롭 자켓", price:41800, ok:true, hide:false, url:"https://link.coupang.com/a/iu3hiFLiCq", img:"ep14n_fur_crop_blk.jpg"},
         {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep14n_blk_longboots.jpg"},
         {name:"마리하우스 체인 크로스 미니 숄더백", price:9800, ok:true, hide:false, url:"https://link.coupang.com/a/isx22PD6nk", img:"ep14n_blk_chain_bag.jpg"}
       ]},
-      { name: "포근 크림 퍼 룩", imgs: ["ep14s_l5_1.jpg","ep14s_l5_2.jpg"], items: [
+      { name: "포근 크림 퍼 룩", imgs: ["ep14s_l5_1.jpg"], items: [
         {name:"아이보리 하이넥 크롭 퍼 자켓", price:49800, ok:true, hide:false, url:"https://link.coupang.com/a/iu3hsGloT6", img:"ep14n_cream_fur_jkt.jpg"},
         {name:"블랙 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3fWKOWku", img:"ep14n_elle_turtle_blk.jpg"},
         {name:"화이트 하이웨스트 플리츠 미니스커트", price:9350, ok:true, hide:false, url:"https://link.coupang.com/a/iu3CTdDrs4", img:"ep14n_elle_pleat_white.jpg"},
