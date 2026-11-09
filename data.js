@@ -650,7 +650,7 @@ const EPISODES = [
   },
   {
     tab: "EP015",
-    pov: "영하 5도에도 안 춥고 예쁜 아우터 5개 찾아냄",
+    pov: "추운데 롱패딩 말고 예쁘게 입고 싶은 사람",
     looks: [
       { name: "네이비 블랙 숏패딩 룩", imgs: ["ep15s_l1_1.jpg"], items: [
         {name:"다크 슬림 숏패딩 하이넥(블랙·다크네이비)", price:42760, ok:true, hide:false, url:"https://link.coupang.com/a/iwwx0i60YK", img:"ep15n_blk_padding.jpg"},
