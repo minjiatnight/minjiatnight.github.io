@@ -647,5 +647,43 @@ const EPISODES = [
         {name:"미니 바게트백 데일리 숄더백 여성 미니가방", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/isx6l2tTdQ", img:"ep14n_white_mini_bag.jpg"}
       ]}
     ]
+  },
+  {
+    tab: "EP015",
+    pov: "영하 5도에도 안 춥고 예쁜 아우터 5개 찾아냄",
+    looks: [
+      { name: "네이비 블랙 숏패딩 룩", imgs: ["ep15s_l1_1.jpg"], items: [
+        {name:"다크 슬림 숏패딩 하이넥(블랙·다크네이비)", price:42760, ok:true, hide:false, url:"https://link.coupang.com/a/iwwx0i60YK", img:"ep15n_blk_padding.jpg"},
+        {name:"진그레이 골지 슬림 터틀넥", price:12800, ok:true, hide:false, url:"https://link.coupang.com/a/iwvRFEjEkK", img:"ep15n_gray_rib_turtle.jpg"},
+        {name:"여성용 코듀로이 플리츠 미니 스커트", price:14890, ok:true, hide:false, url:"https://link.coupang.com/a/isyw5hNd7s", img:"ep13n_blk_pleat_mini.jpg"},
+        {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep14n_blk_longboots.jpg"}
+      ]},
+      { name: "카멜 스웨이드 자켓 룩", imgs: ["ep15s_l2_1.jpg"], items: [
+        {name:"카멜 스웨이드 카라 세미크롭 자켓", price:38500, ok:true, hide:false, url:"https://link.coupang.com/a/iwvSDpp4SG", img:"ep15n_brown_suede_jkt.jpg"},
+        {name:"블루 데님 A라인 미니 스커트", price:20900, ok:true, hide:false, url:"https://link.coupang.com/a/iww6Oq0PJc", img:"ep15n_denim_mini.jpg"},
+        {name:"아이보리 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gatQSVo", img:"ep14n_elle_turtle_ivory.jpg"},
+        {name:"ZIVIA 여성 V컷 롱부츠 가을겨울 중굽 단색 하이부츠 굽 5cm", price:20330, ok:true, hide:false, url:"https://link.coupang.com/a/isxUmLPNhQ", img:"ep13n_brown_longboots.jpg"}
+      ]},
+      { name: "초코 퍼 자켓 룩", imgs: ["ep15s_l3_1.jpg"], items: [
+        {name:"브라운(밤색) 페이크퍼 숏 자켓", price:54680, ok:true, hide:false, url:"https://link.coupang.com/a/iwvUyiOP2i", img:"ep15n_choco_fur_jkt.jpg"},
+        {name:"화이트 골지 슬림 세미크롭 티", price:10900, ok:true, hide:false, url:"https://link.coupang.com/a/iwyapbubM4", img:"ep15n_white_rib_tee.jpg"},
+        {name:"여성용 코듀로이 플리츠 미니 스커트", price:14890, ok:true, hide:false, url:"https://link.coupang.com/a/isyw5hNd7s", img:"ep14n_blk_pleat_mini.jpg"},
+        {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep14n_blk_longboots.jpg"}
+      ]},
+      { name: "베이지 머스탱 룩", imgs: ["ep15s_l4_1.jpg"], items: [
+        {name:"베이지 양털 카라 크롭 스웨이드 무스탕", price:64900, ok:true, hide:false, url:"https://link.coupang.com/a/iwvVvPBPuS", img:"ep15n_beige_mustang.jpg"},
+        {name:"화이트 슬림핏 세미크롭 티", price:12230, ok:true, hide:false, url:"https://link.coupang.com/a/iwvWtlfsLA", img:"ep15n_white_crop_tee.jpg"},
+        {name:"메이첼 포히 캐주얼 플리츠 스커트 12326", price:15740, ok:true, hide:false, url:"https://link.coupang.com/a/isxRiLMYyi", img:"ep13n_gray_pleat_mini.jpg"},
+        {name:"플라틴베이지 빅사이즈 스퀘어토 롱부츠 여성 가죽 부츠 (발볼넓은/다리얇아보이는)", price:42800, ok:true, hide:false, url:"https://link.coupang.com/a/isxMv3J9Eq", img:"ep14n_blk_longboots.jpg"},
+        {name:"마리하우스 체인 크로스 미니 숄더백", price:9800, ok:true, hide:false, url:"https://link.coupang.com/a/isx22PD6nk", img:"ep14n_blk_chain_bag.jpg"}
+      ]},
+      { name: "크림 숏패딩 룩", imgs: ["ep15s_l5_1.jpg"], items: [
+        {name:"[루엘라]여성 파스텔 글로시 크롭 숏패딩", price:15900, ok:true, hide:false, url:"https://link.coupang.com/a/isxU9Q1iNw", img:"ep13n_cream_crop_padding.jpg"},
+        {name:"아이보리 골지 터틀넥", price:7490, ok:true, hide:false, url:"https://link.coupang.com/a/iu3gatQSVo", img:"ep14n_elle_turtle_ivory.jpg"},
+        {name:"화이트 하이웨스트 플리츠 미니스커트", price:9350, ok:true, hide:false, url:"https://link.coupang.com/a/iu3CTdDrs4", img:"ep14n_elle_pleat_white.jpg"},
+        {name:"라블 통 큰 웨스턴 스타일 스웨이드 롱부츠 미들부츠 시리즈", price:22900, ok:true, hide:false, url:"https://link.coupang.com/a/isx5ybTmZo", img:"ep14n_beige_longboots.jpg"},
+        {name:"미니 바게트백 데일리 숄더백 여성 미니가방", price:14900, ok:true, hide:false, url:"https://link.coupang.com/a/isx6l2tTdQ", img:"ep14n_white_mini_bag.jpg"}
+      ]}
+    ]
   }
 ];
